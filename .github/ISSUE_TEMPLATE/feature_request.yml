@@ -1,0 +1,16 @@
+name: Feature request
+description: Data, a call or a DataFrame you would like.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you want to do
+      description: The question you want to answer about HIP-4 markets.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What happens today
+      description: What the client gives you now, and where that falls short.

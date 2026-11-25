@@ -1,0 +1,250 @@
+{
+ "result": {
+  "data": [
+   {
+    "outcome": 47504,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "fox",
+    "deployerName": "fox",
+    "template": "binaryPrice",
+    "kind": "price_binary",
+    "title": "BTC above 60,060 at Nov 25 20:25 UTC",
+    "label": "BTC above 60,060 at Nov 25 20:25 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795638300000,
+    "deadline": 1795638300000,
+    "timing": {
+     "settles": 1795638300000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795637955669,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.31886,
+    "ask": 0.42565,
+    "mid": 0.372255,
+    "spread": 0.10679,
+    "depthUsd": {
+     "bid": 0,
+     "ask": 0
+    },
+    "volume24h": 0,
+    "trades24h": 0,
+    "lastPx": null,
+    "change24h": null,
+    "fair": {
+     "p": 0.483774,
+     "lo": 0.483185,
+     "hi": 0.484319,
+     "method": "blend",
+     "singleSource": false,
+     "confidence": 0.3,
+     "flags": [
+      "far-from-listed-expiry",
+      "mostly-realized-vol"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 3.316852,
+     "buy1": -17.423364,
+     "sell0": null,
+     "sell1": 3.948652,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 3.316852
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "fox",
+     "stakeHype": 500031.06456931,
+     "unstakingHype": 360,
+     "pastDelays": {
+      "count": 14496,
+      "medianMs": 6961,
+      "maxMs": 26425865
+     },
+     "level": "high",
+     "note": "Settled by fox's key; 500,031 HYPE staked; 360 HYPE being withdrawn."
+    }
+   },
+   {
+    "outcome": 47503,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "fox",
+    "deployerName": "fox",
+    "template": "binaryPriceExternal",
+    "kind": "price_binary",
+    "title": "BTC above 59,972.55 at Nov 25 20:30 UTC",
+    "label": "BTC above 59,972.55 at Nov 25 20:30 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795638600000,
+    "deadline": 1795638600000,
+    "timing": {
+     "settles": 1795638600000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795637805270,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.4453,
+    "ask": 0.50612,
+    "mid": 0.47571,
+    "spread": 0.06082,
+    "depthUsd": {
+     "bid": 35.624,
+     "ask": 40.4896
+    },
+    "volume24h": 994,
+    "trades24h": 19,
+    "lastPx": 0.42158,
+    "change24h": -0.11239,
+    "fair": {
+     "p": 0.54105,
+     "lo": 0.53954,
+     "hi": 0.542674,
+     "method": "blend",
+     "singleSource": false,
+     "confidence": 0.3,
+     "flags": [
+      "unobserved-level",
+      "far-from-listed-expiry",
+      "mostly-realized-vol"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 1.265911,
+     "buy1": -11.581016,
+     "sell0": -12.896847,
+     "sell1": 0.911155,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 1.265911
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "fox",
+     "stakeHype": 500031.06456931,
+     "unstakingHype": 360,
+     "pastDelays": {
+      "count": 14496,
+      "medianMs": 6961,
+      "maxMs": 26425865
+     },
+     "level": "high",
+     "note": "Settled by fox's key; 500,031 HYPE staked; 360 HYPE being withdrawn."
+    }
+   },
+   {
+    "outcome": 47502,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "binaryPrice",
+    "kind": "price_binary",
+    "title": "ETH above 1,685.1 at Nov 25 20:30 UTC",
+    "label": "ETH above 1,685.1 at Nov 25 20:30 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "ETH",
+    "eventTime": 1795638600000,
+    "deadline": 1795638600000,
+    "timing": {
+     "settles": 1795638600000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795637704190,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.32179,
+    "ask": 0.72479,
+    "mid": 0.52329,
+    "spread": 0.403,
+    "depthUsd": {
+     "bid": 0,
+     "ask": 0
+    },
+    "volume24h": 23,
+    "trades24h": 1,
+    "lastPx": 0.576,
+    "change24h": -0.05271,
+    "fair": {
+     "p": 0.517183,
+     "lo": 0.516858,
+     "hi": 0.51752,
+     "method": "blend",
+     "singleSource": false,
+     "confidence": 0.3,
+     "flags": [
+      "far-from-listed-expiry",
+      "mostly-realized-vol"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": -31.470741,
+     "buy1": -24.622067,
+     "sell0": -41.409902,
+     "sell1": -41.778731,
+     "best": {
+      "side": 1,
+      "action": "buy",
+      "pts": -24.622067
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   }
+  ]
+ }
+}

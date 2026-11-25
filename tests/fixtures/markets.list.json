@@ -1,0 +1,755 @@
+{
+ "result": {
+  "data": [
+   {
+    "outcome": 46825,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurring",
+    "kind": "price_binary",
+    "title": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "label": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586417475,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.80231,
+    "ask": 0.81717,
+    "mid": 0.80974,
+    "spread": 0.01486,
+    "depthUsd": {
+     "bid": 2512.51917,
+     "ask": 1277.87036
+    },
+    "volume24h": 140372,
+    "trades24h": 2502,
+    "lastPx": 0.813,
+    "change24h": 0.32075,
+    "fair": {
+     "p": 0.866718,
+     "lo": 0.858917,
+     "hi": 0.874721,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.6,
+     "flags": [
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 4.894112,
+     "buy1": -7.064728,
+     "sell0": -6.534295,
+     "sell1": 4.661471,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 4.894112
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   },
+   {
+    "outcome": 1488,
+    "questionId": 200,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "NFL 2027 winner: Buffalo Bills",
+    "label": "Buffalo Bills",
+    "questionTitle": "NFL 2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NFL",
+    "eventTime": null,
+    "deadline": 1803211200000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1803211200000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.15425,
+    "ask": 0.15426,
+    "mid": 0.154255,
+    "spread": 1e-05,
+    "depthUsd": {
+     "bid": 1273.17648,
+     "ask": 665.7316
+    },
+    "volume24h": 1301126,
+    "trades24h": 19867,
+    "lastPx": 0.15426,
+    "change24h": 0.001205,
+    "fair": {
+     "p": 0.157715,
+     "lo": 0.151166,
+     "hi": 0.164264,
+     "method": "consensus",
+     "singleSource": true,
+     "confidence": 0.57,
+     "flags": [
+      "single-source"
+     ],
+     "ts": 1795638080687
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 0.316522,
+     "buy1": -0.464421,
+     "sell0": -0.361441,
+     "sell1": 0.260443,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 0.316522
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "SAME",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 11492,
+    "questionId": 430,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "NBA 2026/2027 winner: Oklahoma City Thunder",
+    "label": "Oklahoma City Thunder",
+    "questionTitle": "NBA 2026/2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NBA",
+    "eventTime": null,
+    "deadline": 1814399940000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1814399940000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.12454,
+    "ask": 0.12455,
+    "mid": 0.124545,
+    "spread": 1e-05,
+    "depthUsd": {
+     "bid": 628.35236,
+     "ask": 524.9767
+    },
+    "volume24h": 2092132,
+    "trades24h": 15274,
+    "lastPx": 0.12455,
+    "change24h": -0.006955,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 44733,
+    "questionId": 701,
+    "role": "fallback",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "fallback",
+    "kind": "contest_result",
+    "title": "Marseille vs Levski Sofia: Other",
+    "label": "Other",
+    "questionTitle": "Marseille vs Levski Sofia",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "UEFA Europa League",
+    "eventTime": 1795715100000,
+    "deadline": 1803663900000,
+    "timing": {
+     "settles": null,
+     "starts": 1795715100000,
+     "by": 1803663900000
+    },
+    "listedAt": 1795422896521,
+    "status": "open",
+    "settledSide": null,
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "depthUsd": {
+     "bid": 0,
+     "ask": 0
+    },
+    "volume24h": 0,
+    "trades24h": 0,
+    "lastPx": null,
+    "change24h": null,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": null,
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 11493,
+    "questionId": 430,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "NBA 2026/2027 winner: San Antonio Spurs",
+    "label": "San Antonio Spurs",
+    "questionTitle": "NBA 2026/2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NBA",
+    "eventTime": null,
+    "deadline": 1814399940000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1814399940000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.2101,
+    "ask": 0.21011,
+    "mid": 0.210105,
+    "spread": 1e-05,
+    "depthUsd": {
+     "bid": 1067.68688,
+     "ask": 1155.09967
+    },
+    "volume24h": 1731201,
+    "trades24h": 17663,
+    "lastPx": 0.21011,
+    "change24h": -0.004365,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 46830,
+    "questionId": 706,
+    "role": "named",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurringNamed",
+    "kind": "price_bucket",
+    "title": "BTC price at Nov 26 06:00 UTC: Below 57,946",
+    "label": "Below 57,946",
+    "questionTitle": "BTC price at Nov 26 06:00 UTC",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586455529,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.00334,
+    "ask": 0.99666,
+    "mid": 0.5,
+    "spread": 0.99332,
+    "depthUsd": {
+     "bid": 0,
+     "ask": 0
+    },
+    "volume24h": 18033,
+    "trades24h": 43,
+    "lastPx": 0.338,
+    "change24h": 0.259,
+    "fair": {
+     "p": 0.022851,
+     "lo": 0.018643,
+     "hi": 0.027359,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.3,
+     "flags": [
+      "venue-disagreement",
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": -97.382494,
+     "buy1": -2.019506,
+     "sell0": null,
+     "sell1": null,
+     "best": {
+      "side": 1,
+      "action": "buy",
+      "pts": -2.019506
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   },
+   {
+    "outcome": 11495,
+    "questionId": 430,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "NBA 2026/2027 winner: Philadelphia 76ers",
+    "label": "Philadelphia 76ers",
+    "questionTitle": "NBA 2026/2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NBA",
+    "eventTime": null,
+    "deadline": 1814399940000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1814399940000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.10739,
+    "ask": 0.1074,
+    "mid": 0.107395,
+    "spread": 1e-05,
+    "depthUsd": {
+     "bid": 548.98045,
+     "ask": 509.41829
+    },
+    "volume24h": 1572637,
+    "trades24h": 11921,
+    "lastPx": 0.10742,
+    "change24h": -0.005655,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 11497,
+    "questionId": 430,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "NBA 2026/2027 winner: Boston Celtics",
+    "label": "Boston Celtics",
+    "questionTitle": "NBA 2026/2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NBA",
+    "eventTime": null,
+    "deadline": 1814399940000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1814399940000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.08128,
+    "ask": 0.0813,
+    "mid": 0.08129,
+    "spread": 2e-05,
+    "depthUsd": {
+     "bid": 2406.4115,
+     "ask": 935.98742
+    },
+    "volume24h": 1437164,
+    "trades24h": 9461,
+    "lastPx": 0.0813,
+    "change24h": -0.00234,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 1481,
+    "questionId": 199,
+    "role": "named",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "sportsTournamentParticipant",
+    "kind": "tournament_winner",
+    "title": "UEFA Champions League 2026/2027 winner: Arsenal",
+    "label": "Arsenal",
+    "questionTitle": "UEFA Champions League 2026/2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "UEFA Champions League",
+    "eventTime": null,
+    "deadline": 1812801600000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1812801600000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.15019,
+    "ask": 0.15105,
+    "mid": 0.15062,
+    "spread": 0.00086,
+    "depthUsd": {
+     "bid": 1076.81361,
+     "ask": 361.81848
+    },
+    "volume24h": 1280873,
+    "trades24h": 11165,
+    "lastPx": 0.15048,
+    "change24h": 0.01221,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 46419,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "binaryPrice",
+    "kind": "price_binary",
+    "title": "ANT above 82.065 at Nov 25 21:00 UTC",
+    "label": "ANT above 82.065 at Nov 25 21:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "equities",
+    "subcategory": "ANT",
+    "eventTime": 1795640400000,
+    "deadline": 1795640400000,
+    "timing": {
+     "settles": 1795640400000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795554006750,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.655,
+    "ask": 0.665,
+    "mid": 0.66,
+    "spread": 0.01,
+    "depthUsd": {
+     "bid": 13.755,
+     "ask": 1187.05497
+    },
+    "volume24h": 25445,
+    "trades24h": 392,
+    "lastPx": 0.625,
+    "change24h": 0.19,
+    "fair": {
+     "p": 0.827404,
+     "lo": 0.783338,
+     "hi": 0.881747,
+     "method": "realized-vol",
+     "singleSource": true,
+     "confidence": 0.3,
+     "flags": [
+      "realized-vol-only"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 14.684319,
+     "buy1": -22.383421,
+     "sell0": -22.069163,
+     "sell1": 14.16062,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 14.684319
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": null,
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   {
+    "outcome": 44963,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "priceTouch",
+    "kind": "price_touch",
+    "title": "BTC touches 55,000 by Dec 1 00:00 UTC",
+    "label": "BTC touches 55,000 by Dec 1 00:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": null,
+    "deadline": 1796083200000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1796083200000
+    },
+    "listedAt": 1795437938172,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.23287,
+    "ask": 0.24472,
+    "mid": 0.238795,
+    "spread": 0.01185,
+    "depthUsd": {
+     "bid": 611.49515,
+     "ask": 80.25382
+    },
+    "volume24h": 95013,
+    "trades24h": 701,
+    "lastPx": 0.25151,
+    "change24h": -0.040355,
+    "fair": {
+     "p": 0.194605,
+     "lo": 0.145869,
+     "hi": 0.258267,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.3,
+     "flags": [
+      "touch-model"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": -6.538004,
+     "buy1": 3.713711,
+     "sell0": 3.797822,
+     "sell1": -5.144644,
+     "best": {
+      "side": 1,
+      "action": "buy",
+      "pts": 3.713711
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "CLOSE",
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   }
+  ]
+ }
+}

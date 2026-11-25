@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a vulnerability
+    url: https://github.com/usehyperodds/hyperodds-python/security/advisories/new
+    about: Please report security problems privately.
+  - name: Try it in Google Colab
+    url: https://colab.research.google.com/github/usehyperodds/hyperodds-python/blob/main/notebooks/hip4-in-colab.ipynb
+    about: Every live HIP-4 market in pandas, with no key to set up.

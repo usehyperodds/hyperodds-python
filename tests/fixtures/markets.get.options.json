@@ -1,0 +1,788 @@
+{
+ "result": {
+  "data": {
+   "summary": {
+    "outcome": 46825,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurring",
+    "kind": "price_binary",
+    "title": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "label": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586417475,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.80231,
+    "ask": 0.81717,
+    "mid": 0.80974,
+    "spread": 0.01486,
+    "depthUsd": {
+     "bid": 2512.51917,
+     "ask": 1277.87036
+    },
+    "volume24h": 140372,
+    "trades24h": 2502,
+    "lastPx": 0.813,
+    "change24h": 0.32075,
+    "fair": {
+     "p": 0.866718,
+     "lo": 0.858917,
+     "hi": 0.874721,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.6,
+     "flags": [
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 4.894112,
+     "buy1": -7.064728,
+     "sell0": -6.534295,
+     "sell1": 4.661471,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 4.894112
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   },
+   "rules": {
+    "kind": "price_binary",
+    "subjects": [
+     "asset:BTC"
+    ],
+    "yes": {
+     "above": 59129
+    },
+    "source": "hl-recurring:BTC",
+    "sourceText": "Hyperliquid recurring market price",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "threshold": {
+     "value": 59129,
+     "direction": "above",
+     "inclusive": true
+    },
+    "range": null,
+    "window": null,
+    "countedPlay": null,
+    "measure": null,
+    "voidRule": "protocol",
+    "ruleset": "hip4:recurring",
+    "extras": {
+     "period": "1d"
+    }
+   },
+   "fields": {
+    "class": "priceBinary",
+    "underlying": "BTC",
+    "expiry": "20261126-0600",
+    "targetPrice": "59129",
+    "period": "1d"
+   },
+   "questionFields": null,
+   "fair": {
+    "p": 0.866718,
+    "lo": 0.858917,
+    "hi": 0.874721,
+    "method": "options",
+    "sources": [
+     {
+      "name": "deribit",
+      "p": 0.866718,
+      "weight": 1,
+      "ageMs": 10814,
+      "venue": "Deribit",
+      "label": "Options surface"
+     }
+    ],
+    "singleSource": false,
+    "confidence": 0.6,
+    "flags": [
+     "far-from-listed-expiry"
+    ],
+    "ts": 1795638072841
+   },
+   "book": {
+    "bids": [
+     {
+      "px": 0.80231,
+      "sz": 53,
+      "n": 1
+     },
+     {
+      "px": 0.802,
+      "sz": 72,
+      "n": 3
+     },
+     {
+      "px": 0.801,
+      "sz": 100,
+      "n": 1
+     },
+     {
+      "px": 0.7935,
+      "sz": 25,
+      "n": 1
+     }
+    ],
+    "asks": [
+     {
+      "px": 0.81717,
+      "sz": 230,
+      "n": 1
+     },
+     {
+      "px": 0.81718,
+      "sz": 100,
+      "n": 1
+     },
+     {
+      "px": 0.82,
+      "sz": 45,
+      "n": 2
+     },
+     {
+      "px": 0.821,
+      "sz": 22,
+      "n": 1
+     }
+    ],
+    "ts": 1795638079593
+   },
+   "trades": [
+    {
+     "tid": 906928931559083,
+     "px": 0.813,
+     "sz": 7,
+     "notional": 7,
+     "side": 0,
+     "takerSide": "A",
+     "at": 1795637911054
+    },
+    {
+     "tid": 208221444020632,
+     "px": 0.78988,
+     "sz": 50,
+     "notional": 50,
+     "side": 0,
+     "takerSide": "B",
+     "at": 1795636442635
+    },
+    {
+     "tid": 1047100747442328,
+     "px": 0.79663,
+     "sz": 31,
+     "notional": 31,
+     "side": 0,
+     "takerSide": "B",
+     "at": 1795636441680
+    }
+   ],
+   "question": null,
+   "cluster": null,
+   "matches": [
+    {
+     "matchId": 273269,
+     "venue": "kx",
+     "id": "kx:KXBTCD-26NOV2601-T59099.99",
+     "title": "Bitcoin price on Nov 26, 2026? $59,100 or above",
+     "yesLabel": "$59,100 or above",
+     "noLabel": "No",
+     "url": "https://kalshi.com/markets/kxbtcd",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": false,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59100",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "CF Benchmarks real-time index",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "60s cf-rti-60s-avg",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59100
+      },
+      "source": "cf-benchmarks:BTC-RTI",
+      "sourceText": "CF Benchmarks real-time index",
+      "eventTime": 1795672800000,
+      "deadline": 1795672800000,
+      "threshold": {
+       "value": 59100,
+       "direction": "above",
+       "inclusive": true
+      },
+      "range": null,
+      "window": {
+       "seconds": 60,
+       "method": "cf-rti-60s-avg"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "strike": "above 59099.99"
+      }
+     },
+     "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,100 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 59099.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=59099.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+     "book": {
+      "bids": [],
+      "asks": [],
+      "ts": 1795637844672
+     },
+     "bookTs": 1795637844672,
+     "bid": null,
+     "ask": null
+    },
+    {
+     "matchId": 273270,
+     "venue": "kx",
+     "id": "kx:KXBTCD-26NOV2601-T59199.99",
+     "title": "Bitcoin price on Nov 26, 2026? $59,200 or above",
+     "yesLabel": "$59,200 or above",
+     "noLabel": "No",
+     "url": "https://kalshi.com/markets/kxbtcd",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": false,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59200",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "CF Benchmarks real-time index",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "60s cf-rti-60s-avg",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59200
+      },
+      "source": "cf-benchmarks:BTC-RTI",
+      "sourceText": "CF Benchmarks real-time index",
+      "eventTime": 1795672800000,
+      "deadline": 1795672800000,
+      "threshold": {
+       "value": 59200,
+       "direction": "above",
+       "inclusive": true
+      },
+      "range": null,
+      "window": {
+       "seconds": 60,
+       "method": "cf-rti-60s-avg"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "strike": "above 59199.99"
+      }
+     },
+     "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,200 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 59199.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=59199.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+     "book": {
+      "bids": [],
+      "asks": [],
+      "ts": 1795637844672
+     },
+     "bookTs": 1795637844672,
+     "bid": null,
+     "ask": null
+    },
+    {
+     "matchId": 273271,
+     "venue": "kx",
+     "id": "kx:KXBTCD-26NOV2601-T58999.99",
+     "title": "Bitcoin price on Nov 26, 2026? $59,000 or above",
+     "yesLabel": "$59,000 or above",
+     "noLabel": "No",
+     "url": "https://kalshi.com/markets/kxbtcd",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": false,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59000",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "CF Benchmarks real-time index",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "60s cf-rti-60s-avg",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59000
+      },
+      "source": "cf-benchmarks:BTC-RTI",
+      "sourceText": "CF Benchmarks real-time index",
+      "eventTime": 1795672800000,
+      "deadline": 1795672800000,
+      "threshold": {
+       "value": 59000,
+       "direction": "above",
+       "inclusive": true
+      },
+      "range": null,
+      "window": {
+       "seconds": 60,
+       "method": "cf-rti-60s-avg"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "strike": "above 58999.99"
+      }
+     },
+     "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,000 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 58999.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=58999.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+     "book": {
+      "bids": [],
+      "asks": [],
+      "ts": 1795637844672
+     },
+     "bookTs": 1795637844672,
+     "bid": null,
+     "ask": null
+    },
+    {
+     "matchId": 285895,
+     "venue": "pm",
+     "id": "pm:0x5e045563b8d1928f91b6a57206c6d0b150df00b69d62d0aa19846925eac40d47",
+     "title": "Bitcoin above 59,200 on November 25, 5PM ET?",
+     "yesLabel": "Yes",
+     "noLabel": "No",
+     "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-5pm-et/bitcoin-above-59200-on-november-25-2026-5pm-et",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": true,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59200",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "cutoff",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T22:00:00Z",
+       "severity": "different",
+       "note": "Prices are taken at different times."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "Binance BTC/USDT 1-hour candle close",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "3600s binance-1h-close",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      },
+      {
+       "field": "deadline",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T22:00:00Z",
+       "severity": "close",
+       "note": "One fallback deadline may arrive before the event is decided."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59200
+      },
+      "source": "binance:BTC/USDT",
+      "sourceText": "Binance BTC/USDT 1-hour candle close",
+      "eventTime": 1795644000000,
+      "deadline": 1795644000000,
+      "threshold": {
+       "value": 59200,
+       "direction": "above",
+       "inclusive": false
+      },
+      "range": null,
+      "window": {
+       "seconds": 3600,
+       "method": "binance-1h-close"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "precision": "as many decimals as the source shows"
+      }
+     },
+     "rulesText": "Bitcoin above 59,200 on November 25, 5PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,200\n\nEnd date: 2026-11-25T22:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+     "book": {
+      "bids": [
+       {
+        "px": 0.01,
+        "sz": 500
+       }
+      ],
+      "asks": [
+       {
+        "px": 0.99,
+        "sz": 163.89
+       }
+      ],
+      "ts": 1795637739492
+     },
+     "bookTs": 1795638079632,
+     "bid": 0.01,
+     "ask": 0.99
+    },
+    {
+     "matchId": 285896,
+     "venue": "pm",
+     "id": "pm:0x1ab85f039d83c00f24714fe716a0d7dea302d62a2f47304ddaf08f12bfb7cddf",
+     "title": "Bitcoin above 59,000 on November 25, 5PM ET?",
+     "yesLabel": "Yes",
+     "noLabel": "No",
+     "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-5pm-et/bitcoin-above-59000-on-november-25-2026-5pm-et",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": true,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59000",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "cutoff",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T22:00:00Z",
+       "severity": "different",
+       "note": "Prices are taken at different times."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "Binance BTC/USDT 1-hour candle close",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "3600s binance-1h-close",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      },
+      {
+       "field": "deadline",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T22:00:00Z",
+       "severity": "close",
+       "note": "One fallback deadline may arrive before the event is decided."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59000
+      },
+      "source": "binance:BTC/USDT",
+      "sourceText": "Binance BTC/USDT 1-hour candle close",
+      "eventTime": 1795644000000,
+      "deadline": 1795644000000,
+      "threshold": {
+       "value": 59000,
+       "direction": "above",
+       "inclusive": false
+      },
+      "range": null,
+      "window": {
+       "seconds": 3600,
+       "method": "binance-1h-close"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "precision": "as many decimals as the source shows"
+      }
+     },
+     "rulesText": "Bitcoin above 59,000 on November 25, 5PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,000\n\nEnd date: 2026-11-25T22:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+     "book": {
+      "bids": [
+       {
+        "px": 0.01,
+        "sz": 500
+       }
+      ],
+      "asks": [
+       {
+        "px": 0.99,
+        "sz": 163.89
+       }
+      ],
+      "ts": 1795637727860
+     },
+     "bookTs": 1795638079632,
+     "bid": 0.01,
+     "ask": 0.99
+    },
+    {
+     "matchId": 281499,
+     "venue": "pm",
+     "id": "pm:0xa37b4173ecec5f0f3093e7c367191891ca618f454f3c19a81a6d1ceb6279ace5",
+     "title": "Bitcoin above 59,200 on November 25, 4PM ET?",
+     "yesLabel": "Yes",
+     "noLabel": "No",
+     "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-4pm-et/bitcoin-above-59200-on-november-25-2026-4pm-et",
+     "grade": "DIFFERENT",
+     "auto": true,
+     "reviewRequired": false,
+     "flipped": false,
+     "trading": true,
+     "diffs": [
+      {
+       "field": "threshold",
+       "a": "59129",
+       "b": "59200",
+       "severity": "different",
+       "note": "Different threshold."
+      },
+      {
+       "field": "cutoff",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T21:00:00Z",
+       "severity": "different",
+       "note": "Prices are taken at different times."
+      },
+      {
+       "field": "source",
+       "a": "Hyperliquid recurring market price",
+       "b": "Binance BTC/USDT 1-hour candle close",
+       "severity": "close",
+       "note": "Different source for the same fact."
+      },
+      {
+       "field": "window",
+       "a": "not stated",
+       "b": "3600s binance-1h-close",
+       "severity": "close",
+       "note": "Prices are sampled differently."
+      },
+      {
+       "field": "void",
+       "a": "protocol",
+       "b": "not stated",
+       "severity": "close",
+       "note": "Void or postponement handling not stated on both sides."
+      },
+      {
+       "field": "deadline",
+       "a": "2026-11-26T06:00:00Z",
+       "b": "2026-11-25T21:00:00Z",
+       "severity": "close",
+       "note": "One fallback deadline may arrive before the event is decided."
+      }
+     ],
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59200
+      },
+      "source": "binance:BTC/USDT",
+      "sourceText": "Binance BTC/USDT 1-hour candle close",
+      "eventTime": 1795640400000,
+      "deadline": 1795640400000,
+      "threshold": {
+       "value": 59200,
+       "direction": "above",
+       "inclusive": false
+      },
+      "range": null,
+      "window": {
+       "seconds": 3600,
+       "method": "binance-1h-close"
+      },
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": null,
+      "ruleset": null,
+      "extras": {
+       "precision": "as many decimals as the source shows"
+      }
+     },
+     "rulesText": "Bitcoin above 59,200 on November 25, 4PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,200\n\nEnd date: 2026-11-25T21:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+     "book": {
+      "bids": [
+       {
+        "px": 0.01,
+        "sz": 499.99
+       }
+      ],
+      "asks": [],
+      "ts": 1795637744480
+     },
+     "bookTs": 1795638079632,
+     "bid": 0.01,
+     "ask": null
+    }
+   ]
+  }
+ }
+}

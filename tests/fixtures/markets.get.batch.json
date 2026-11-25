@@ -1,0 +1,1538 @@
+{
+ "status": 207,
+ "outcomes": [
+  1488,
+  1,
+  46825
+ ],
+ "body": [
+  {
+   "result": {
+    "data": {
+     "summary": {
+      "outcome": 1488,
+      "questionId": 200,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsTournamentParticipant",
+      "kind": "tournament_winner",
+      "title": "NFL 2027 winner: Buffalo Bills",
+      "label": "Buffalo Bills",
+      "questionTitle": "NFL 2027 winner",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "NFL",
+      "eventTime": null,
+      "deadline": 1803211200000,
+      "timing": {
+       "settles": null,
+       "starts": null,
+       "by": 1803211200000
+      },
+      "listedAt": null,
+      "status": "open",
+      "settledSide": null,
+      "bid": 0.15425,
+      "ask": 0.15426,
+      "mid": 0.154255,
+      "spread": 1e-05,
+      "depthUsd": {
+       "bid": 1273.17648,
+       "ask": 665.7316
+      },
+      "volume24h": 1301126,
+      "trades24h": 19867,
+      "lastPx": 0.15426,
+      "change24h": 0.001205,
+      "fair": {
+       "p": 0.157715,
+       "lo": 0.151166,
+       "hi": 0.164264,
+       "method": "consensus",
+       "singleSource": true,
+       "confidence": 0.57,
+       "flags": [
+        "single-source"
+       ],
+       "ts": 1795638081189
+      },
+      "edge": {
+       "refUsd": 100,
+       "buy0": 0.316522,
+       "buy1": -0.464421,
+       "sell0": -0.361441,
+       "sell1": 0.260443,
+       "best": {
+        "side": 0,
+        "action": "buy",
+        "pts": 0.316522
+       }
+      },
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "SAME",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     "rules": {
+      "kind": "tournament_winner",
+      "subjects": [
+       "competition:nfl",
+       "season:2027"
+      ],
+      "yes": {
+       "winner": "team:buffalo bills"
+      },
+      "source": "nfl",
+      "sourceText": "USA National Football League (NFL)",
+      "eventTime": null,
+      "deadline": 1803211200000,
+      "threshold": null,
+      "range": null,
+      "window": null,
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": "fallback",
+      "ruleset": "hip4:sportsTournamentWinner",
+      "extras": {}
+     },
+     "fields": {
+      "participant": "Buffalo Bills"
+     },
+     "questionFields": {
+      "competition": "USA National Football League (NFL)",
+      "officialSource": "USA National Football League (NFL)",
+      "resolutionDeadline": "20270221-1200",
+      "season": "2027",
+      "sport": "football"
+     },
+     "fair": {
+      "p": 0.157715,
+      "lo": 0.151166,
+      "hi": 0.164264,
+      "method": "consensus",
+      "sources": [
+       {
+        "name": "pm:0xb02f2ebd5ba67ed1018b634f7ccf88fd46e348f4a53c55cf89a55d02d9ea8611",
+        "p": 0.157715,
+        "weight": 1,
+        "ageMs": 1557,
+        "venue": "Polymarket",
+        "label": "Will the Buffalo Bills win the 2027 NFL league championship?"
+       }
+      ],
+      "singleSource": true,
+      "confidence": 0.57,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081189
+     },
+     "book": {
+      "bids": [
+       {
+        "px": 0.15425,
+        "sz": 1251,
+        "n": 5
+       },
+       {
+        "px": 0.15424,
+        "sz": 35,
+        "n": 1
+       },
+       {
+        "px": 0.15418,
+        "sz": 19,
+        "n": 1
+       },
+       {
+        "px": 0.15408,
+        "sz": 500,
+        "n": 1
+       }
+      ],
+      "asks": [
+       {
+        "px": 0.15426,
+        "sz": 385,
+        "n": 5
+       },
+       {
+        "px": 0.15443,
+        "sz": 499,
+        "n": 1
+       },
+       {
+        "px": 0.15446,
+        "sz": 35,
+        "n": 1
+       },
+       {
+        "px": 0.15464,
+        "sz": 165,
+        "n": 2
+       }
+      ],
+      "ts": 1795638079593
+     },
+     "trades": [
+      {
+       "tid": 132581554201111,
+       "px": 0.15426,
+       "sz": 106,
+       "notional": 106,
+       "side": 0,
+       "takerSide": "B",
+       "at": 1795638078291
+      },
+      {
+       "tid": 272183088688382,
+       "px": 0.15425,
+       "sz": 58,
+       "notional": 58,
+       "side": 0,
+       "takerSide": "A",
+       "at": 1795638078291
+      },
+      {
+       "tid": 167465484902465,
+       "px": 0.15425,
+       "sz": 48,
+       "notional": 48,
+       "side": 0,
+       "takerSide": "A",
+       "at": 1795638078291
+      }
+     ],
+     "question": {
+      "question": 200,
+      "title": "NFL 2027 winner",
+      "template": "sportsTournamentWinner",
+      "kind": "tournament_winner",
+      "category": "sports",
+      "deployer": "out",
+      "eventTime": null,
+      "deadline": 1803211200000,
+      "outcomes": [
+       {
+        "outcome": 1487,
+        "questionId": 200,
+        "role": "named",
+        "deployer": "out",
+        "deployerName": "Outcome",
+        "template": "sportsTournamentParticipant",
+        "kind": "tournament_winner",
+        "title": "NFL 2027 winner: Los Angeles Rams",
+        "label": "Los Angeles Rams",
+        "questionTitle": "NFL 2027 winner",
+        "sideLabels": [
+         "Yes",
+         "No"
+        ],
+        "category": "sports",
+        "subcategory": "NFL",
+        "eventTime": null,
+        "deadline": 1803211200000,
+        "timing": {
+         "settles": null,
+         "starts": null,
+         "by": 1803211200000
+        },
+        "listedAt": null,
+        "status": "open",
+        "settledSide": null,
+        "bid": 0.04232,
+        "ask": 0.04268,
+        "mid": 0.0425,
+        "spread": 0.00036,
+        "depthUsd": {
+         "bid": 98.49554,
+         "ask": 163.20457
+        },
+        "volume24h": 5155,
+        "trades24h": 43,
+        "lastPx": 0.04268,
+        "change24h": 0.00289,
+        "fair": {
+         "p": 0.043121,
+         "lo": 0.04104,
+         "hi": 0.045201,
+         "method": "consensus",
+         "singleSource": true,
+         "confidence": 0.597,
+         "flags": [
+          "single-source"
+         ],
+         "ts": 1795638081189
+        },
+        "edge": {
+         "refUsd": 100,
+         "buy0": -0.075305,
+         "buy1": -0.214021,
+         "sell0": null,
+         "sell1": -0.051736,
+         "best": {
+          "side": 0,
+          "action": "buy",
+          "pts": -0.075305
+         }
+        },
+        "clusterId": null,
+        "clusterSize": 0,
+        "matchGrade": "SAME",
+        "settlementRisk": {
+         "settledBy": "deployer",
+         "deployer": "Outcome",
+         "stakeHype": 508924.62384877,
+         "unstakingHype": 0,
+         "pastDelays": {
+          "count": 9159,
+          "medianMs": 8064,
+          "maxMs": 596394370
+         },
+         "level": "medium",
+         "note": "Settled by Outcome's key; 508,925 HYPE staked."
+        }
+       },
+       {
+        "outcome": 1488,
+        "questionId": 200,
+        "role": "named",
+        "deployer": "out",
+        "deployerName": "Outcome",
+        "template": "sportsTournamentParticipant",
+        "kind": "tournament_winner",
+        "title": "NFL 2027 winner: Buffalo Bills",
+        "label": "Buffalo Bills",
+        "questionTitle": "NFL 2027 winner",
+        "sideLabels": [
+         "Yes",
+         "No"
+        ],
+        "category": "sports",
+        "subcategory": "NFL",
+        "eventTime": null,
+        "deadline": 1803211200000,
+        "timing": {
+         "settles": null,
+         "starts": null,
+         "by": 1803211200000
+        },
+        "listedAt": null,
+        "status": "open",
+        "settledSide": null,
+        "bid": 0.15425,
+        "ask": 0.15426,
+        "mid": 0.154255,
+        "spread": 1e-05,
+        "depthUsd": {
+         "bid": 1273.17648,
+         "ask": 665.7316
+        },
+        "volume24h": 1301126,
+        "trades24h": 19867,
+        "lastPx": 0.15426,
+        "change24h": 0.001205,
+        "fair": {
+         "p": 0.157715,
+         "lo": 0.151166,
+         "hi": 0.164264,
+         "method": "consensus",
+         "singleSource": true,
+         "confidence": 0.57,
+         "flags": [
+          "single-source"
+         ],
+         "ts": 1795638081189
+        },
+        "edge": {
+         "refUsd": 100,
+         "buy0": 0.316522,
+         "buy1": -0.464421,
+         "sell0": -0.361441,
+         "sell1": 0.260443,
+         "best": {
+          "side": 0,
+          "action": "buy",
+          "pts": 0.316522
+         }
+        },
+        "clusterId": null,
+        "clusterSize": 0,
+        "matchGrade": "SAME",
+        "settlementRisk": {
+         "settledBy": "deployer",
+         "deployer": "Outcome",
+         "stakeHype": 508924.62384877,
+         "unstakingHype": 0,
+         "pastDelays": {
+          "count": 9159,
+          "medianMs": 8064,
+          "maxMs": 596394370
+         },
+         "level": "medium",
+         "note": "Settled by Outcome's key; 508,925 HYPE staked."
+        }
+       },
+       {
+        "outcome": 1489,
+        "questionId": 200,
+        "role": "named",
+        "deployer": "out",
+        "deployerName": "Outcome",
+        "template": "sportsTournamentParticipant",
+        "kind": "tournament_winner",
+        "title": "NFL 2027 winner: Baltimore Ravens",
+        "label": "Baltimore Ravens",
+        "questionTitle": "NFL 2027 winner",
+        "sideLabels": [
+         "Yes",
+         "No"
+        ],
+        "category": "sports",
+        "subcategory": "NFL",
+        "eventTime": null,
+        "deadline": 1803211200000,
+        "timing": {
+         "settles": null,
+         "starts": null,
+         "by": 1803211200000
+        },
+        "listedAt": null,
+        "status": "open",
+        "settledSide": null,
+        "bid": 0.0015,
+        "ask": 0.00228,
+        "mid": 0.00189,
+        "spread": 0.00078,
+        "depthUsd": {
+         "bid": 3.075,
+         "ask": 17.87188
+        },
+        "volume24h": 0,
+        "trades24h": 0,
+        "lastPx": null,
+        "change24h": -0.00144,
+        "fair": {
+         "p": 0.001952,
+         "lo": 0.001452,
+         "hi": 0.002452,
+         "method": "consensus",
+         "singleSource": true,
+         "confidence": 0.597,
+         "flags": [
+          "single-source"
+         ],
+         "ts": 1795638081189
+        },
+        "edge": {
+         "refUsd": 100,
+         "buy0": -9.490323,
+         "buy1": -0.249987,
+         "sell0": null,
+         "sell1": -0.132521,
+         "best": {
+          "side": 1,
+          "action": "buy",
+          "pts": -0.249987
+         }
+        },
+        "clusterId": null,
+        "clusterSize": 0,
+        "matchGrade": "SAME",
+        "settlementRisk": {
+         "settledBy": "deployer",
+         "deployer": "Outcome",
+         "stakeHype": 508924.62384877,
+         "unstakingHype": 0,
+         "pastDelays": {
+          "count": 9159,
+          "medianMs": 8064,
+          "maxMs": 596394370
+         },
+         "level": "medium",
+         "note": "Settled by Outcome's key; 508,925 HYPE staked."
+        }
+       }
+      ],
+      "fallback": {
+       "outcome": 1486,
+       "questionId": 200,
+       "role": "fallback",
+       "deployer": "out",
+       "deployerName": "Outcome",
+       "template": "fallback",
+       "kind": "tournament_winner",
+       "title": "NFL 2027 winner: Other",
+       "label": "Other",
+       "questionTitle": "NFL 2027 winner",
+       "sideLabels": [
+        "Yes",
+        "No"
+       ],
+       "category": "sports",
+       "subcategory": "NFL",
+       "eventTime": null,
+       "deadline": 1803211200000,
+       "timing": {
+        "settles": null,
+        "starts": null,
+        "by": 1803211200000
+       },
+       "listedAt": null,
+       "status": "open",
+       "settledSide": null,
+       "bid": null,
+       "ask": null,
+       "mid": null,
+       "spread": null,
+       "depthUsd": {
+        "bid": 0,
+        "ask": 0
+       },
+       "volume24h": 0,
+       "trades24h": 0,
+       "lastPx": null,
+       "change24h": null,
+       "fair": null,
+       "edge": null,
+       "clusterId": null,
+       "clusterSize": 0,
+       "matchGrade": null,
+       "settlementRisk": {
+        "settledBy": "deployer",
+        "deployer": "Outcome",
+        "stakeHype": 508924.62384877,
+        "unstakingHype": 0,
+        "pastDelays": {
+         "count": 9159,
+         "medianMs": 8064,
+         "maxMs": 596394370
+        },
+        "level": "medium",
+        "note": "Settled by Outcome's key; 508,925 HYPE staked."
+       }
+      },
+      "set": {
+       "complete": false,
+       "buyGap": 0.66302,
+       "sellGap": -0.67066,
+       "sumAsks": 0.33698,
+       "sumBids": 0.32934,
+       "sumFair": 0.336837
+      }
+     },
+     "cluster": null,
+     "matches": [
+      {
+       "matchId": 2,
+       "venue": "pm",
+       "id": "pm:0xb02f2ebd5ba67ed1018b634f7ccf88fd46e348f4a53c55cf89a55d02d9ea8611",
+       "title": "Will the Buffalo Bills win the 2027 NFL league championship?",
+       "yesLabel": "Yes",
+       "noLabel": "No",
+       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366/will-the-buffalo-bills-win-the-2027-nfl-league-championship",
+       "grade": "SAME",
+       "auto": true,
+       "reviewRequired": true,
+       "flipped": false,
+       "trading": true,
+       "diffs": [
+        {
+         "field": "deadline",
+         "a": "2027-02-21T12:00:00Z",
+         "b": "2027-04-01T03:59:00Z",
+         "severity": "info",
+         "note": "Fallback deadlines differ; both settle the same unless the event slips past 2027-02-21T12:00:00Z."
+        }
+       ],
+       "rules": {
+        "kind": "tournament_winner",
+        "subjects": [
+         "competition:nfl",
+         "season:2027"
+        ],
+        "yes": {
+         "winner": "team:buffalo bills"
+        },
+        "source": "nfl",
+        "sourceText": "NFL (https://www.nfl.com/)",
+        "eventTime": null,
+        "deadline": 1806551940000,
+        "threshold": null,
+        "range": null,
+        "window": null,
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": "fallback",
+        "ruleset": null,
+        "extras": {
+         "fallbackSource": "consensus of credible reporting"
+        }
+       },
+       "rulesText": "Will the Buffalo Bills win the 2027 NFL league championship?\n\nOutcomes: Yes / No\n\nOption: Buffalo Bills\n\nEnd date: 2027-04-01T03:59:00Z\n\nThis market will resolve according to the team that wins the 2027 NFL league championship. \n\nIf at any point it becomes impossible for a listed team to win the 2027 NFL league championship per the rules of the NFL (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2027 NFL league championship game is cancelled, postponed after March 31, 2027 ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from NFL (https://www.nfl.com/); however, a consensus of credible reporting may also be used.\n\nResolution source: https://www.nfl.com/",
+       "book": {
+        "bids": [
+         {
+          "px": 0.15,
+          "sz": 74602
+         },
+         {
+          "px": 0.14,
+          "sz": 166087.09
+         },
+         {
+          "px": 0.13,
+          "sz": 12697.83
+         },
+         {
+          "px": 0.12,
+          "sz": 7710
+         }
+        ],
+        "asks": [
+         {
+          "px": 0.16,
+          "sz": 22095.21
+         },
+         {
+          "px": 0.17,
+          "sz": 5471.29
+         },
+         {
+          "px": 0.18,
+          "sz": 1735.73
+         },
+         {
+          "px": 0.19,
+          "sz": 12868.55
+         }
+        ],
+        "ts": 1795638076098
+       },
+       "bookTs": 1795638079632,
+       "bid": 0.15,
+       "ask": 0.16
+      },
+      {
+       "matchId": 3,
+       "venue": "kx",
+       "id": "kx:KXSB-27-BUF",
+       "title": "Will Buffalo win the 2027 Pro Football Championship?",
+       "yesLabel": "Buffalo",
+       "noLabel": "No",
+       "url": "https://kalshi.com/markets/kxsb",
+       "grade": "CLOSE",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": true,
+       "diffs": [
+        {
+         "field": "source",
+         "a": "USA National Football League (NFL)",
+         "b": "AP, ESPN, Fox Sports",
+         "severity": "info",
+         "note": "Both sources publish the same official result."
+        },
+        {
+         "field": "void",
+         "a": "fallback",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        },
+        {
+         "field": "deadline",
+         "a": "2027-02-21T12:00:00Z",
+         "b": "not stated",
+         "severity": "info",
+         "note": "Only the first market has a fallback deadline; both settle the same unless the event slips past 2027-02-21T12:00:00Z."
+        }
+       ],
+       "rules": {
+        "kind": "tournament_winner",
+        "subjects": [
+         "competition:nfl",
+         "season:2027"
+        ],
+        "yes": {
+         "winner": "team:buffalo bills"
+        },
+        "source": "espn",
+        "sourceText": "AP, ESPN, Fox Sports",
+        "eventTime": null,
+        "deadline": null,
+        "threshold": null,
+        "range": null,
+        "window": null,
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {}
+       },
+       "rulesText": "Event: 2027 Pro Football Champion (2026-27)\n\nWill Buffalo win the 2027 Pro Football Championship?\n\nYes: Buffalo\n\nIf Buffalo wins the 2027 Pro Football Championship, then the market resolves to Yes.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.\n\nEarly close: This market will close and expire after a title holder is declared.\n\nStrike: structured floor=- cap=- custom={\"football_team\":\"f9acd396-ba35-4cae-a431-a44b2af707b0\"}\n\nClose: 2029-02-13T23:30:00Z\n\nSettlement sources: AP, ESPN, Fox Sports",
+       "book": {
+        "bids": [
+         {
+          "px": 0.15,
+          "sz": 126109.64
+         },
+         {
+          "px": 0.14,
+          "sz": 775718.93
+         },
+         {
+          "px": 0.13,
+          "sz": 346535.22
+         },
+         {
+          "px": 0.12,
+          "sz": 3681.91
+         }
+        ],
+        "asks": [
+         {
+          "px": 0.16,
+          "sz": 1362686.94
+         },
+         {
+          "px": 0.17,
+          "sz": 927704.29
+         },
+         {
+          "px": 0.18,
+          "sz": 300153.86
+         },
+         {
+          "px": 0.19,
+          "sz": 367.79
+         }
+        ],
+        "ts": 1795637844672
+       },
+       "bookTs": 1795637844672,
+       "bid": 0.15,
+       "ask": 0.16
+      }
+     ]
+    }
+   }
+  },
+  {
+   "error": {
+    "message": "No such market.",
+    "code": -32004,
+    "data": {
+     "code": "NOT_FOUND",
+     "httpStatus": 404,
+     "path": "markets.get"
+    }
+   }
+  },
+  {
+   "result": {
+    "data": {
+     "summary": {
+      "outcome": 46825,
+      "questionId": null,
+      "role": "standalone",
+      "deployer": "hl",
+      "deployerName": "Hyperliquid",
+      "template": "recurring",
+      "kind": "price_binary",
+      "title": "BTC above 59,129 at Nov 26 06:00 UTC",
+      "label": "BTC above 59,129 at Nov 26 06:00 UTC",
+      "questionTitle": null,
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "crypto",
+      "subcategory": "BTC",
+      "eventTime": 1795672800000,
+      "deadline": 1795672800000,
+      "timing": {
+       "settles": 1795672800000,
+       "starts": null,
+       "by": null
+      },
+      "listedAt": 1795586417475,
+      "status": "open",
+      "settledSide": null,
+      "bid": 0.80231,
+      "ask": 0.81717,
+      "mid": 0.80974,
+      "spread": 0.01486,
+      "depthUsd": {
+       "bid": 2512.51917,
+       "ask": 1277.87036
+      },
+      "volume24h": 140372,
+      "trades24h": 2502,
+      "lastPx": 0.813,
+      "change24h": 0.32075,
+      "fair": {
+       "p": 0.866718,
+       "lo": 0.858917,
+       "hi": 0.874721,
+       "method": "options",
+       "singleSource": false,
+       "confidence": 0.6,
+       "flags": [
+        "far-from-listed-expiry"
+       ],
+       "ts": 1795638072841
+      },
+      "edge": {
+       "refUsd": 100,
+       "buy0": 4.894112,
+       "buy1": -7.064728,
+       "sell0": -6.534295,
+       "sell1": 4.661471,
+       "best": {
+        "side": 0,
+        "action": "buy",
+        "pts": 4.894112
+       }
+      },
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "DIFFERENT",
+      "settlementRisk": {
+       "settledBy": "protocol",
+       "deployer": "Hyperliquid",
+       "stakeHype": null,
+       "unstakingHype": null,
+       "pastDelays": {
+        "count": 216,
+        "medianMs": 17474,
+        "maxMs": 41098
+       },
+       "level": "low",
+       "note": "Settled by the protocol."
+      }
+     },
+     "rules": {
+      "kind": "price_binary",
+      "subjects": [
+       "asset:BTC"
+      ],
+      "yes": {
+       "above": 59129
+      },
+      "source": "hl-recurring:BTC",
+      "sourceText": "Hyperliquid recurring market price",
+      "eventTime": 1795672800000,
+      "deadline": 1795672800000,
+      "threshold": {
+       "value": 59129,
+       "direction": "above",
+       "inclusive": true
+      },
+      "range": null,
+      "window": null,
+      "countedPlay": null,
+      "measure": null,
+      "voidRule": "protocol",
+      "ruleset": "hip4:recurring",
+      "extras": {
+       "period": "1d"
+      }
+     },
+     "fields": {
+      "class": "priceBinary",
+      "underlying": "BTC",
+      "expiry": "20261126-0600",
+      "targetPrice": "59129",
+      "period": "1d"
+     },
+     "questionFields": null,
+     "fair": {
+      "p": 0.866718,
+      "lo": 0.858917,
+      "hi": 0.874721,
+      "method": "options",
+      "sources": [
+       {
+        "name": "deribit",
+        "p": 0.866718,
+        "weight": 1,
+        "ageMs": 10814,
+        "venue": "Deribit",
+        "label": "Options surface"
+       }
+      ],
+      "singleSource": false,
+      "confidence": 0.6,
+      "flags": [
+       "far-from-listed-expiry"
+      ],
+      "ts": 1795638072841
+     },
+     "book": {
+      "bids": [
+       {
+        "px": 0.80231,
+        "sz": 53,
+        "n": 1
+       },
+       {
+        "px": 0.802,
+        "sz": 72,
+        "n": 3
+       },
+       {
+        "px": 0.801,
+        "sz": 100,
+        "n": 1
+       },
+       {
+        "px": 0.7935,
+        "sz": 25,
+        "n": 1
+       }
+      ],
+      "asks": [
+       {
+        "px": 0.81717,
+        "sz": 230,
+        "n": 1
+       },
+       {
+        "px": 0.81718,
+        "sz": 100,
+        "n": 1
+       },
+       {
+        "px": 0.82,
+        "sz": 45,
+        "n": 2
+       },
+       {
+        "px": 0.821,
+        "sz": 22,
+        "n": 1
+       }
+      ],
+      "ts": 1795638079593
+     },
+     "trades": [
+      {
+       "tid": 906928931559083,
+       "px": 0.813,
+       "sz": 7,
+       "notional": 7,
+       "side": 0,
+       "takerSide": "A",
+       "at": 1795637911054
+      },
+      {
+       "tid": 208221444020632,
+       "px": 0.78988,
+       "sz": 50,
+       "notional": 50,
+       "side": 0,
+       "takerSide": "B",
+       "at": 1795636442635
+      },
+      {
+       "tid": 1047100747442328,
+       "px": 0.79663,
+       "sz": 31,
+       "notional": 31,
+       "side": 0,
+       "takerSide": "B",
+       "at": 1795636441680
+      }
+     ],
+     "question": null,
+     "cluster": null,
+     "matches": [
+      {
+       "matchId": 273269,
+       "venue": "kx",
+       "id": "kx:KXBTCD-26NOV2601-T59099.99",
+       "title": "Bitcoin price on Nov 26, 2026? $59,100 or above",
+       "yesLabel": "$59,100 or above",
+       "noLabel": "No",
+       "url": "https://kalshi.com/markets/kxbtcd",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": false,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59100",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "CF Benchmarks real-time index",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "60s cf-rti-60s-avg",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59100
+        },
+        "source": "cf-benchmarks:BTC-RTI",
+        "sourceText": "CF Benchmarks real-time index",
+        "eventTime": 1795672800000,
+        "deadline": 1795672800000,
+        "threshold": {
+         "value": 59100,
+         "direction": "above",
+         "inclusive": true
+        },
+        "range": null,
+        "window": {
+         "seconds": 60,
+         "method": "cf-rti-60s-avg"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "strike": "above 59099.99"
+        }
+       },
+       "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,100 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 59099.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=59099.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+       "book": {
+        "bids": [],
+        "asks": [],
+        "ts": 1795637844672
+       },
+       "bookTs": 1795637844672,
+       "bid": null,
+       "ask": null
+      },
+      {
+       "matchId": 273270,
+       "venue": "kx",
+       "id": "kx:KXBTCD-26NOV2601-T59199.99",
+       "title": "Bitcoin price on Nov 26, 2026? $59,200 or above",
+       "yesLabel": "$59,200 or above",
+       "noLabel": "No",
+       "url": "https://kalshi.com/markets/kxbtcd",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": false,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59200",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "CF Benchmarks real-time index",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "60s cf-rti-60s-avg",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59200
+        },
+        "source": "cf-benchmarks:BTC-RTI",
+        "sourceText": "CF Benchmarks real-time index",
+        "eventTime": 1795672800000,
+        "deadline": 1795672800000,
+        "threshold": {
+         "value": 59200,
+         "direction": "above",
+         "inclusive": true
+        },
+        "range": null,
+        "window": {
+         "seconds": 60,
+         "method": "cf-rti-60s-avg"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "strike": "above 59199.99"
+        }
+       },
+       "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,200 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 59199.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=59199.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+       "book": {
+        "bids": [],
+        "asks": [],
+        "ts": 1795637844672
+       },
+       "bookTs": 1795637844672,
+       "bid": null,
+       "ask": null
+      },
+      {
+       "matchId": 273271,
+       "venue": "kx",
+       "id": "kx:KXBTCD-26NOV2601-T58999.99",
+       "title": "Bitcoin price on Nov 26, 2026? $59,000 or above",
+       "yesLabel": "$59,000 or above",
+       "noLabel": "No",
+       "url": "https://kalshi.com/markets/kxbtcd",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": false,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59000",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "CF Benchmarks real-time index",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "60s cf-rti-60s-avg",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59000
+        },
+        "source": "cf-benchmarks:BTC-RTI",
+        "sourceText": "CF Benchmarks real-time index",
+        "eventTime": 1795672800000,
+        "deadline": 1795672800000,
+        "threshold": {
+         "value": 59000,
+         "direction": "above",
+         "inclusive": true
+        },
+        "range": null,
+        "window": {
+         "seconds": 60,
+         "method": "cf-rti-60s-avg"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "strike": "above 58999.99"
+        }
+       },
+       "rulesText": "Event: BTC price on Nov 26, 2026 at 1am EST? (On Nov 26, 2026 at 1am EST)\n\nBitcoin price on Nov 26, 2026?\n\nYes: $59,000 or above\n\nIf the simple average of the sixty seconds of CF Benchmarks' Bitcoin Real-Time Index (BRTI) before 1 AM EST is above 58999.99 at 1 AM EST on Nov 26, 2026, then the market resolves to Yes.\n\nNot all cryptocurrency price data is the same. While checking a source like Google or Coinbase may help guide your decision, the price used to determine this market is based on CF Benchmarks' corresponding Real Time Index (RTI). At the last minute before expiration, 60 RTI prices are collected. The official and final value is the average of these prices.\n\nStrike: greater floor=58999.99 cap=- custom={\"round_digits\":\"2\"}\n\nStrike date: 2026-11-26T06:00:00Z\n\nClose: 2026-11-26T06:00:00Z\n\nSettlement sources: CF Benchmarks",
+       "book": {
+        "bids": [],
+        "asks": [],
+        "ts": 1795637844672
+       },
+       "bookTs": 1795637844672,
+       "bid": null,
+       "ask": null
+      },
+      {
+       "matchId": 285895,
+       "venue": "pm",
+       "id": "pm:0x5e045563b8d1928f91b6a57206c6d0b150df00b69d62d0aa19846925eac40d47",
+       "title": "Bitcoin above 59,200 on November 25, 5PM ET?",
+       "yesLabel": "Yes",
+       "noLabel": "No",
+       "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-5pm-et/bitcoin-above-59200-on-november-25-2026-5pm-et",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": true,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59200",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "cutoff",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T22:00:00Z",
+         "severity": "different",
+         "note": "Prices are taken at different times."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "Binance BTC/USDT 1-hour candle close",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "3600s binance-1h-close",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        },
+        {
+         "field": "deadline",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T22:00:00Z",
+         "severity": "close",
+         "note": "One fallback deadline may arrive before the event is decided."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59200
+        },
+        "source": "binance:BTC/USDT",
+        "sourceText": "Binance BTC/USDT 1-hour candle close",
+        "eventTime": 1795644000000,
+        "deadline": 1795644000000,
+        "threshold": {
+         "value": 59200,
+         "direction": "above",
+         "inclusive": false
+        },
+        "range": null,
+        "window": {
+         "seconds": 3600,
+         "method": "binance-1h-close"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "precision": "as many decimals as the source shows"
+        }
+       },
+       "rulesText": "Bitcoin above 59,200 on November 25, 5PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,200\n\nEnd date: 2026-11-25T22:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+       "book": {
+        "bids": [
+         {
+          "px": 0.01,
+          "sz": 500
+         }
+        ],
+        "asks": [
+         {
+          "px": 0.99,
+          "sz": 163.89
+         }
+        ],
+        "ts": 1795637739492
+       },
+       "bookTs": 1795638079632,
+       "bid": 0.01,
+       "ask": 0.99
+      },
+      {
+       "matchId": 285896,
+       "venue": "pm",
+       "id": "pm:0x1ab85f039d83c00f24714fe716a0d7dea302d62a2f47304ddaf08f12bfb7cddf",
+       "title": "Bitcoin above 59,000 on November 25, 5PM ET?",
+       "yesLabel": "Yes",
+       "noLabel": "No",
+       "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-5pm-et/bitcoin-above-59000-on-november-25-2026-5pm-et",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": true,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59000",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "cutoff",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T22:00:00Z",
+         "severity": "different",
+         "note": "Prices are taken at different times."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "Binance BTC/USDT 1-hour candle close",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "3600s binance-1h-close",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        },
+        {
+         "field": "deadline",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T22:00:00Z",
+         "severity": "close",
+         "note": "One fallback deadline may arrive before the event is decided."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59000
+        },
+        "source": "binance:BTC/USDT",
+        "sourceText": "Binance BTC/USDT 1-hour candle close",
+        "eventTime": 1795644000000,
+        "deadline": 1795644000000,
+        "threshold": {
+         "value": 59000,
+         "direction": "above",
+         "inclusive": false
+        },
+        "range": null,
+        "window": {
+         "seconds": 3600,
+         "method": "binance-1h-close"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "precision": "as many decimals as the source shows"
+        }
+       },
+       "rulesText": "Bitcoin above 59,000 on November 25, 5PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,000\n\nEnd date: 2026-11-25T22:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+       "book": {
+        "bids": [
+         {
+          "px": 0.01,
+          "sz": 500
+         }
+        ],
+        "asks": [
+         {
+          "px": 0.99,
+          "sz": 163.89
+         }
+        ],
+        "ts": 1795637727860
+       },
+       "bookTs": 1795638079632,
+       "bid": 0.01,
+       "ask": 0.99
+      },
+      {
+       "matchId": 281499,
+       "venue": "pm",
+       "id": "pm:0xa37b4173ecec5f0f3093e7c367191891ca618f454f3c19a81a6d1ceb6279ace5",
+       "title": "Bitcoin above 59,200 on November 25, 4PM ET?",
+       "yesLabel": "Yes",
+       "noLabel": "No",
+       "url": "https://polymarket.com/event/bitcoin-above-on-november-25-2026-4pm-et/bitcoin-above-59200-on-november-25-2026-4pm-et",
+       "grade": "DIFFERENT",
+       "auto": true,
+       "reviewRequired": false,
+       "flipped": false,
+       "trading": true,
+       "diffs": [
+        {
+         "field": "threshold",
+         "a": "59129",
+         "b": "59200",
+         "severity": "different",
+         "note": "Different threshold."
+        },
+        {
+         "field": "cutoff",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T21:00:00Z",
+         "severity": "different",
+         "note": "Prices are taken at different times."
+        },
+        {
+         "field": "source",
+         "a": "Hyperliquid recurring market price",
+         "b": "Binance BTC/USDT 1-hour candle close",
+         "severity": "close",
+         "note": "Different source for the same fact."
+        },
+        {
+         "field": "window",
+         "a": "not stated",
+         "b": "3600s binance-1h-close",
+         "severity": "close",
+         "note": "Prices are sampled differently."
+        },
+        {
+         "field": "void",
+         "a": "protocol",
+         "b": "not stated",
+         "severity": "close",
+         "note": "Void or postponement handling not stated on both sides."
+        },
+        {
+         "field": "deadline",
+         "a": "2026-11-26T06:00:00Z",
+         "b": "2026-11-25T21:00:00Z",
+         "severity": "close",
+         "note": "One fallback deadline may arrive before the event is decided."
+        }
+       ],
+       "rules": {
+        "kind": "price_binary",
+        "subjects": [
+         "asset:BTC"
+        ],
+        "yes": {
+         "above": 59200
+        },
+        "source": "binance:BTC/USDT",
+        "sourceText": "Binance BTC/USDT 1-hour candle close",
+        "eventTime": 1795640400000,
+        "deadline": 1795640400000,
+        "threshold": {
+         "value": 59200,
+         "direction": "above",
+         "inclusive": false
+        },
+        "range": null,
+        "window": {
+         "seconds": 3600,
+         "method": "binance-1h-close"
+        },
+        "countedPlay": null,
+        "measure": null,
+        "voidRule": null,
+        "ruleset": null,
+        "extras": {
+         "precision": "as many decimals as the source shows"
+        }
+       },
+       "rulesText": "Bitcoin above 59,200 on November 25, 4PM ET?\n\nOutcomes: Yes / No\n\nOption: 59,200\n\nEnd date: 2026-11-25T21:00:00Z\n\nThis market will resolve to \"Yes\" if the \"Close\" price for the BTC/USDT 1 hour candle that ends on the time and date specified in the title is higher than the price specified in the title. Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market is Binance, specifically the BTC/USDT \"Close\" prices currently available at https://www.binance.com/en/trade/BTC_USDT with \"1h\" and \"Candles\" selected on the top bar.\n\nPlease note that this market is about the price according to Binance BTC/USDT, not according to other exchanges or trading pairs.\n\nPrice precision is determined by the number of decimal places in the source.\n\nResolution source: https://www.binance.com/en/trade/BTC_USDT",
+       "book": {
+        "bids": [
+         {
+          "px": 0.01,
+          "sz": 499.99
+         }
+        ],
+        "asks": [],
+        "ts": 1795637744480
+       },
+       "bookTs": 1795638079632,
+       "bid": 0.01,
+       "ask": null
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

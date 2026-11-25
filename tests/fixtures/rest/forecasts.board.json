@@ -1,0 +1,35 @@
+{
+ "asOf": null,
+ "through": null,
+ "records": 0,
+ "settled": 0,
+ "settlementsRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+ "baselines": [
+  {
+   "key": "fair",
+   "label": "Hyperodds fair line",
+   "n": 0,
+   "brier": null,
+   "nFair": 0,
+   "skillFair": null,
+   "skillFairLow": null,
+   "nMarket": 0,
+   "skillMarket": null
+  },
+  {
+   "key": "market",
+   "label": "Market price",
+   "n": 0,
+   "brier": null,
+   "nFair": 0,
+   "skillFair": null,
+   "skillFairLow": null,
+   "nMarket": 0,
+   "skillMarket": null
+  }
+ ],
+ "total": 0,
+ "resolved": 0,
+ "established": 0,
+ "rows": []
+}

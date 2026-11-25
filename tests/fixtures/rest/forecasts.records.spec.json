@@ -1,0 +1,6 @@
+{
+ "days": [
+  {"day": "2025-11-22", "count": 2, "root": "9c1e4f7a2b5d8c0e3f6a9b2c5d8e1f4a7b0c3d6e9f2a5b8c1d4e7f0a3b6c9d2e", "sha256": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b", "bytes": 842, "closedAt": "2025-11-23T00:05:00.000Z", "url": "https://api.usehyperodds.com/forecasts/records/2025-11-22.jsonl"},
+  {"day": "2025-11-21", "count": 5, "root": "1d4e7f0a3b6c9d2e5f8a1b4c7d0e3f6a9b2c5d8e1f4a7b0c3d6e9f2a5b8c1d4e", "sha256": "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9", "bytes": 2105, "closedAt": "2025-11-22T00:05:00.000Z", "url": "https://api.usehyperodds.com/forecasts/records/2025-11-21.jsonl"}
+ ]
+}

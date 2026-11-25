@@ -1,0 +1,828 @@
+{
+ "result": {
+  "data": [
+   {
+    "question": 690,
+    "title": "Atletico Madrid vs Viking",
+    "template": "sportsContestResult",
+    "kind": "contest_result",
+    "category": "sports",
+    "deployer": "out",
+    "eventTime": 1795636800000,
+    "deadline": 1803585600000,
+    "outcomes": [
+     {
+      "outcome": 43684,
+      "questionId": 690,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestParticipant2",
+      "kind": "contest_result",
+      "title": "Atletico Madrid vs Viking: Atletico Madrid",
+      "label": "Atletico Madrid",
+      "questionTitle": "Atletico Madrid vs Viking",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341457013,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.92,
+      "ask": 0.98979,
+      "mid": 0.954895,
+      "spread": 0.06979,
+      "depthUsd": {
+       "bid": 234.6,
+       "ask": 34616.97292
+      },
+      "volume24h": 182728,
+      "trades24h": 3582,
+      "lastPx": 0.92,
+      "change24h": 0.077395,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 43685,
+      "questionId": 690,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestDraw2",
+      "kind": "contest_result",
+      "title": "Atletico Madrid vs Viking: Draw",
+      "label": "Draw",
+      "questionTitle": "Atletico Madrid vs Viking",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341457013,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.0084,
+      "ask": 0.105,
+      "mid": 0.0567,
+      "spread": 0.0966,
+      "depthUsd": {
+       "bid": 18.48732,
+       "ask": 12.6
+      },
+      "volume24h": 88363,
+      "trades24h": 1563,
+      "lastPx": 0.09091,
+      "change24h": -0.02702,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 43686,
+      "questionId": 690,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestParticipant2",
+      "kind": "contest_result",
+      "title": "Atletico Madrid vs Viking: Viking",
+      "label": "Viking",
+      "questionTitle": "Atletico Madrid vs Viking",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341457013,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.01,
+      "ask": 0.065,
+      "mid": 0.0375,
+      "spread": 0.055,
+      "depthUsd": {
+       "bid": 58.43759,
+       "ask": 7.475
+      },
+      "volume24h": 13637,
+      "trades24h": 140,
+      "lastPx": 0.09,
+      "change24h": 0.00056,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     }
+    ],
+    "fallback": {
+     "outcome": 43683,
+     "questionId": 690,
+     "role": "fallback",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "fallback",
+     "kind": "contest_result",
+     "title": "Atletico Madrid vs Viking: Other",
+     "label": "Other",
+     "questionTitle": "Atletico Madrid vs Viking",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "UEFA Champions League",
+     "eventTime": 1795636800000,
+     "deadline": 1803585600000,
+     "timing": {
+      "settles": null,
+      "starts": 1795636800000,
+      "by": 1803585600000
+     },
+     "listedAt": 1795341457013,
+     "status": "live",
+     "settledSide": null,
+     "bid": null,
+     "ask": null,
+     "mid": null,
+     "spread": null,
+     "depthUsd": {
+      "bid": 0,
+      "ask": 0
+     },
+     "volume24h": 0,
+     "trades24h": 0,
+     "lastPx": null,
+     "change24h": null,
+     "fair": null,
+     "edge": null,
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": null,
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    "set": {
+     "complete": true,
+     "buyGap": -0.15979,
+     "sellGap": -0.0616,
+     "sumAsks": 1.15979,
+     "sumBids": 0.9384,
+     "sumFair": null
+    }
+   },
+   {
+    "question": 693,
+    "title": "LOSC Lille vs FC Bayern Munich",
+    "template": "sportsContestResult",
+    "kind": "contest_result",
+    "category": "sports",
+    "deployer": "out",
+    "eventTime": 1795636800000,
+    "deadline": 1803585600000,
+    "outcomes": [
+     {
+      "outcome": 43700,
+      "questionId": 693,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestParticipant2",
+      "kind": "contest_result",
+      "title": "LOSC Lille vs FC Bayern Munich: LOSC Lille",
+      "label": "LOSC Lille",
+      "questionTitle": "LOSC Lille vs FC Bayern Munich",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341607587,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.00729,
+      "ask": 0.10399,
+      "mid": 0.05564,
+      "spread": 0.0967,
+      "depthUsd": {
+       "bid": 15.29277,
+       "ask": 16.6396
+      },
+      "volume24h": 91352,
+      "trades24h": 2434,
+      "lastPx": 0.17099,
+      "change24h": -0.13255,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 43701,
+      "questionId": 693,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestDraw2",
+      "kind": "contest_result",
+      "title": "LOSC Lille vs FC Bayern Munich: Draw",
+      "label": "Draw",
+      "questionTitle": "LOSC Lille vs FC Bayern Munich",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341607587,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.02537,
+      "ask": 0.17099,
+      "mid": 0.09818,
+      "spread": 0.14562,
+      "depthUsd": {
+       "bid": 0,
+       "ask": 0
+      },
+      "volume24h": 67181,
+      "trades24h": 2288,
+      "lastPx": 0.22103,
+      "change24h": -0.12854,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 43702,
+      "questionId": 693,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsContestParticipant2",
+      "kind": "contest_result",
+      "title": "LOSC Lille vs FC Bayern Munich: FC Bayern Munich",
+      "label": "FC Bayern Munich",
+      "questionTitle": "LOSC Lille vs FC Bayern Munich",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "UEFA Champions League",
+      "eventTime": 1795636800000,
+      "deadline": 1803585600000,
+      "timing": {
+       "settles": null,
+       "starts": 1795636800000,
+       "by": 1803585600000
+      },
+      "listedAt": 1795341607587,
+      "status": "live",
+      "settledSide": null,
+      "bid": 0.777,
+      "ask": 0.843,
+      "mid": 0.81,
+      "spread": 0.066,
+      "depthUsd": {
+       "bid": 183.836,
+       "ask": 510.137
+      },
+      "volume24h": 174568,
+      "trades24h": 5021,
+      "lastPx": 0.61772,
+      "change24h": 0.22487,
+      "fair": null,
+      "edge": null,
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "CLOSE",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     }
+    ],
+    "fallback": {
+     "outcome": 43699,
+     "questionId": 693,
+     "role": "fallback",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "fallback",
+     "kind": "contest_result",
+     "title": "LOSC Lille vs FC Bayern Munich: Other",
+     "label": "Other",
+     "questionTitle": "LOSC Lille vs FC Bayern Munich",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "UEFA Champions League",
+     "eventTime": 1795636800000,
+     "deadline": 1803585600000,
+     "timing": {
+      "settles": null,
+      "starts": 1795636800000,
+      "by": 1803585600000
+     },
+     "listedAt": 1795341607587,
+     "status": "live",
+     "settledSide": null,
+     "bid": null,
+     "ask": null,
+     "mid": null,
+     "spread": null,
+     "depthUsd": {
+      "bid": 0,
+      "ask": 0
+     },
+     "volume24h": 0,
+     "trades24h": 0,
+     "lastPx": null,
+     "change24h": null,
+     "fair": null,
+     "edge": null,
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": null,
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    "set": {
+     "complete": true,
+     "buyGap": -0.11798,
+     "sellGap": -0.19034,
+     "sumAsks": 1.11798,
+     "sumBids": 0.80966,
+     "sumFair": null
+    }
+   },
+   {
+    "question": 198,
+    "title": "English Premier League 2026/2027 winner",
+    "template": "sportsTournamentWinner",
+    "kind": "tournament_winner",
+    "category": "sports",
+    "deployer": "out",
+    "eventTime": null,
+    "deadline": 1812196800000,
+    "outcomes": [
+     {
+      "outcome": 1473,
+      "questionId": 198,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsTournamentParticipant",
+      "kind": "tournament_winner",
+      "title": "English Premier League 2026/2027 winner: Arsenal",
+      "label": "Arsenal",
+      "questionTitle": "English Premier League 2026/2027 winner",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "English Premier League",
+      "eventTime": null,
+      "deadline": 1812196800000,
+      "timing": {
+       "settles": null,
+       "starts": null,
+       "by": 1812196800000
+      },
+      "listedAt": null,
+      "status": "open",
+      "settledSide": null,
+      "bid": 0.72772,
+      "ask": 0.72773,
+      "mid": 0.727725,
+      "spread": 1e-05,
+      "depthUsd": {
+       "bid": 2685.89582,
+       "ask": 5235.56532
+      },
+      "volume24h": 1044417,
+      "trades24h": 17550,
+      "lastPx": 0.72772,
+      "change24h": -0.005595,
+      "fair": {
+       "p": 0.733984,
+       "lo": 0.724245,
+       "hi": 0.743723,
+       "method": "consensus",
+       "singleSource": true,
+       "confidence": 0.57,
+       "flags": [
+        "single-source"
+       ],
+       "ts": 1795638081695
+      },
+      "edge": {
+       "refUsd": 100,
+       "buy0": 0.522216,
+       "buy1": -0.677246,
+       "sell0": -0.699539,
+       "sell1": 0.596527,
+       "best": {
+        "side": 0,
+        "action": "buy",
+        "pts": 0.522216
+       }
+      },
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "SAME",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 1474,
+      "questionId": 198,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsTournamentParticipant",
+      "kind": "tournament_winner",
+      "title": "English Premier League 2026/2027 winner: Manchester City",
+      "label": "Manchester City",
+      "questionTitle": "English Premier League 2026/2027 winner",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "English Premier League",
+      "eventTime": null,
+      "deadline": 1812196800000,
+      "timing": {
+       "settles": null,
+       "starts": null,
+       "by": 1812196800000
+      },
+      "listedAt": null,
+      "status": "open",
+      "settledSide": null,
+      "bid": 0.03898,
+      "ask": 0.04107,
+      "mid": 0.040025,
+      "spread": 0.00209,
+      "depthUsd": {
+       "bid": 58.34756,
+       "ask": 92.5252
+      },
+      "volume24h": 4753,
+      "trades24h": 46,
+      "lastPx": 0.03957,
+      "change24h": -0.006655,
+      "fair": {
+       "p": 0.039088,
+       "lo": 0.037191,
+       "hi": 0.040985,
+       "method": "consensus",
+       "singleSource": true,
+       "confidence": 0.597,
+       "flags": [
+        "single-source"
+       ],
+       "ts": 1795638081695
+      },
+      "edge": {
+       "refUsd": 100,
+       "buy0": -1.011945,
+       "buy1": -0.145352,
+       "sell0": null,
+       "sell1": -0.293791,
+       "best": {
+        "side": 1,
+        "action": "buy",
+        "pts": -0.145352
+       }
+      },
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "SAME",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     },
+     {
+      "outcome": 1475,
+      "questionId": 198,
+      "role": "named",
+      "deployer": "out",
+      "deployerName": "Outcome",
+      "template": "sportsTournamentParticipant",
+      "kind": "tournament_winner",
+      "title": "English Premier League 2026/2027 winner: Liverpool",
+      "label": "Liverpool",
+      "questionTitle": "English Premier League 2026/2027 winner",
+      "sideLabels": [
+       "Yes",
+       "No"
+      ],
+      "category": "sports",
+      "subcategory": "English Premier League",
+      "eventTime": null,
+      "deadline": 1812196800000,
+      "timing": {
+       "settles": null,
+       "starts": null,
+       "by": 1812196800000
+      },
+      "listedAt": null,
+      "status": "open",
+      "settledSide": null,
+      "bid": 0.12938,
+      "ask": 0.12952,
+      "mid": 0.12945,
+      "spread": 0.00014,
+      "depthUsd": {
+       "bid": 294.4643,
+       "ask": 146.32805
+      },
+      "volume24h": 1128693,
+      "trades24h": 15026,
+      "lastPx": 0.1295,
+      "change24h": 0.00325,
+      "fair": {
+       "p": 0.129758,
+       "lo": 0.124121,
+       "hi": 0.135394,
+       "method": "consensus",
+       "singleSource": true,
+       "confidence": 0.597,
+       "flags": [
+        "single-source"
+       ],
+       "ts": 1795638081695
+      },
+      "edge": {
+       "refUsd": 100,
+       "buy0": -0.093757,
+       "buy1": -0.159629,
+       "sell0": -0.066396,
+       "sell1": -0.063867,
+       "best": {
+        "side": 0,
+        "action": "buy",
+        "pts": -0.093757
+       }
+      },
+      "clusterId": null,
+      "clusterSize": 0,
+      "matchGrade": "SAME",
+      "settlementRisk": {
+       "settledBy": "deployer",
+       "deployer": "Outcome",
+       "stakeHype": 508924.62384877,
+       "unstakingHype": 0,
+       "pastDelays": {
+        "count": 9159,
+        "medianMs": 8064,
+        "maxMs": 596394370
+       },
+       "level": "medium",
+       "note": "Settled by Outcome's key; 508,925 HYPE staked."
+      }
+     }
+    ],
+    "fallback": {
+     "outcome": 1472,
+     "questionId": 198,
+     "role": "fallback",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "fallback",
+     "kind": "tournament_winner",
+     "title": "English Premier League 2026/2027 winner: Other",
+     "label": "Other",
+     "questionTitle": "English Premier League 2026/2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "English Premier League",
+     "eventTime": null,
+     "deadline": 1812196800000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1812196800000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": null,
+     "ask": null,
+     "mid": null,
+     "spread": null,
+     "depthUsd": {
+      "bid": 0,
+      "ask": 0
+     },
+     "volume24h": 0,
+     "trades24h": 0,
+     "lastPx": null,
+     "change24h": null,
+     "fair": null,
+     "edge": null,
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": null,
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    "set": {
+     "complete": false,
+     "buyGap": 0.01539,
+     "sellGap": -0.08082,
+     "sumAsks": 0.98461,
+     "sumBids": 0.91918,
+     "sumFair": 0.92377
+    }
+   }
+  ]
+ }
+}

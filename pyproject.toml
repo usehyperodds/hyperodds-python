@@ -1,0 +1,111 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hyperodds"
+dynamic = ["version"]
+description = "Typed Python client for the Hyperodds API: Hyperliquid HIP-4 outcome markets, fair lines, price bars and Polymarket and Kalshi matches, with pandas helpers."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Hyperodds", email = "dev@usehyperodds.com" }]
+requires-python = ">=3.10"
+dependencies = [
+  "httpx>=0.27,<1",
+  "pydantic>=2.7,<3",
+]
+keywords = [
+  "hyperliquid",
+  "hip-4",
+  "outcome-markets",
+  "prediction-markets",
+  "polymarket",
+  "kalshi",
+  "pandas",
+  "hyperodds",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Typing :: Typed",
+]
+
+[project.optional-dependencies]
+pandas = ["pandas>=2.2.2"]
+
+[project.urls]
+Homepage = "https://usehyperodds.com"
+Documentation = "https://github.com/usehyperodds/hyperodds-python#readme"
+Repository = "https://github.com/usehyperodds/hyperodds-python"
+Issues = "https://github.com/usehyperodds/hyperodds-python/issues"
+Changelog = "https://github.com/usehyperodds/hyperodds-python/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+  "pandas>=2.2.2",
+  "pandas-stubs>=2.2.2.240807",
+  "pytest>=9",
+  "ruff>=0.17",
+  "mypy>=2.4",
+]
+notebook = [
+  "pandas>=2.2.2",
+  "pip",
+  "matplotlib>=3.9",
+  "ipykernel>=6.17",
+  "nbclient>=0.10",
+  "nbformat>=5.10",
+]
+
+[tool.hatch.version]
+path = "src/hyperodds/_version.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "CHANGELOG.md", "README.md", "LICENSE"]
+exclude = ["tests/**/__pycache__"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hyperodds"]
+
+[tool.uv]
+# A relative exclude-newer needs a recent uv; older ones fail to parse it.
+required-version = ">=0.13"
+# Resolve only releases that have been public for a week, so a compromised
+# release has time to be caught before it reaches a lock file.
+exclude-newer = "7 days"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-m", "not live", "--strict-markers"]
+markers = ["live: calls the production API at api.usehyperodds.com"]
+filterwarnings = ["error"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "PT", "C4", "PIE", "RET"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+plugins = ["pydantic.mypy"]
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = ["tests.*"]
+disallow_untyped_defs = false

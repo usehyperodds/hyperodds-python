@@ -1,0 +1,403 @@
+{
+ "result": {
+  "data": {
+   "summary": {
+    "outcome": 8573,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "companyIpoFirstDayMarketCap",
+    "kind": "ipo_market_cap",
+    "title": "Anthropic first-day market cap above $1,500B",
+    "label": "Anthropic first-day market cap above $1,500B",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "ipo",
+    "subcategory": "Anthropic",
+    "eventTime": null,
+    "deadline": 1798761600000,
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.76699,
+    "ask": 0.767,
+    "mid": 0.766995,
+    "spread": 1e-05,
+    "depthUsd": {
+     "bid": 540.61394,
+     "ask": 863.08769
+    },
+    "volume24h": 26217,
+    "trades24h": 410,
+    "lastPx": 0.76984,
+    "change24h": -0.019415,
+    "fair": null,
+    "edge": null,
+    "clusterId": "ipocap-anthropic-1500000000000-20270101-1hpwz3o",
+    "clusterSize": 2,
+    "matchGrade": null,
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508320.68819593,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 4351,
+      "medianMs": 16702,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,321 HYPE staked."
+    }
+   },
+   "rules": {
+    "kind": "ipo_market_cap",
+    "subjects": [
+     "company:anthropic"
+    ],
+    "yes": {
+     "marketCapAboveB": 1500
+    },
+    "source": null,
+    "sourceText": null,
+    "eventTime": null,
+    "deadline": 1798761600000,
+    "threshold": {
+     "value": 1500000000000,
+     "direction": "above",
+     "inclusive": false
+    },
+    "range": null,
+    "window": null,
+    "countedPlay": null,
+    "measure": null,
+    "voidRule": "50-50",
+    "ruleset": "hip4:companyIpoFirstDayMarketCap",
+    "extras": {}
+   },
+   "fields": {
+    "company": "Anthropic",
+    "listingDeadline": "20270101-0000",
+    "marketCapThresholdB": "1500"
+   },
+   "questionFields": null,
+   "fair": null,
+   "book": {
+    "bids": [
+     {
+      "px": 0.76699,
+      "sz": 171,
+      "n": 2
+     },
+     {
+      "px": 0.7629,
+      "sz": 64,
+      "n": 1
+     },
+     {
+      "px": 0.744,
+      "sz": 431,
+      "n": 1
+     },
+     {
+      "px": 0.72671,
+      "sz": 55,
+      "n": 1
+     }
+    ],
+    "asks": [
+     {
+      "px": 0.767,
+      "sz": 372,
+      "n": 4
+     },
+     {
+      "px": 0.76701,
+      "sz": 69,
+      "n": 1
+     },
+     {
+      "px": 0.7712,
+      "sz": 175,
+      "n": 1
+     },
+     {
+      "px": 0.795,
+      "sz": 435,
+      "n": 2
+     }
+    ],
+    "ts": 1793874243147
+   },
+   "trades": [
+    {
+     "tid": 118364951496818,
+     "px": 0.76984,
+     "sz": 7,
+     "notional": 7,
+     "side": 0,
+     "takerSide": "B",
+     "at": 1793866223206
+    },
+    {
+     "tid": 808876717354212,
+     "px": 0.76994,
+     "sz": 9,
+     "notional": 9,
+     "side": 0,
+     "takerSide": "B",
+     "at": 1793865863202
+    },
+    {
+     "tid": 62759638011493,
+     "px": 0.76996,
+     "sz": 6,
+     "notional": 6,
+     "side": 0,
+     "takerSide": "B",
+     "at": 1793865794762
+    }
+   ],
+   "question": null,
+   "cluster": {
+    "id": "ipocap-anthropic-1500000000000-20270101-1hpwz3o",
+    "title": "Anthropic first-day market cap above $1,500B",
+    "kind": "ipo_market_cap",
+    "anchor": 8573,
+    "members": [
+     {
+      "summary": {
+       "outcome": 8573,
+       "questionId": null,
+       "role": "standalone",
+       "deployer": "out",
+       "deployerName": "Outcome",
+       "template": "companyIpoFirstDayMarketCap",
+       "kind": "ipo_market_cap",
+       "title": "Anthropic first-day market cap above $1,500B",
+       "label": "Anthropic first-day market cap above $1,500B",
+       "questionTitle": null,
+       "sideLabels": [
+        "Yes",
+        "No"
+       ],
+       "category": "ipo",
+       "subcategory": "Anthropic",
+       "eventTime": null,
+       "deadline": 1798761600000,
+       "listedAt": null,
+       "status": "open",
+       "settledSide": null,
+       "bid": 0.76699,
+       "ask": 0.767,
+       "mid": 0.766995,
+       "spread": 1e-05,
+       "depthUsd": {
+        "bid": 540.61394,
+        "ask": 863.08769
+       },
+       "volume24h": 26217,
+       "trades24h": 410,
+       "lastPx": 0.76984,
+       "change24h": -0.019415,
+       "fair": null,
+       "edge": null,
+       "clusterId": "ipocap-anthropic-1500000000000-20270101-1hpwz3o",
+       "clusterSize": 2,
+       "matchGrade": null,
+       "settlementRisk": {
+        "settledBy": "deployer",
+        "deployer": "Outcome",
+        "stakeHype": 508320.68819593,
+        "unstakingHype": 0,
+        "pastDelays": {
+         "count": 4351,
+         "medianMs": 16702,
+         "maxMs": 596394370
+        },
+        "level": "medium",
+        "note": "Settled by Outcome's key; 508,321 HYPE staked."
+       }
+      },
+      "grade": "SAME",
+      "flipped": false,
+      "diffs": []
+     },
+     {
+      "summary": {
+       "outcome": 7362,
+       "questionId": null,
+       "role": "standalone",
+       "deployer": "txyz",
+       "deployerName": "trade[XYZ]",
+       "template": "companyIpoFirstDayMarketCap",
+       "kind": "ipo_market_cap",
+       "title": "Anthropic first-day market cap above $1,500B",
+       "label": "Anthropic first-day market cap above $1,500B",
+       "questionTitle": null,
+       "sideLabels": [
+        "Yes",
+        "No"
+       ],
+       "category": "ipo",
+       "subcategory": "Anthropic",
+       "eventTime": null,
+       "deadline": 1798761540000,
+       "listedAt": null,
+       "status": "open",
+       "settledSide": null,
+       "bid": 0.75,
+       "ask": 0.85,
+       "mid": 0.8,
+       "spread": 0.1,
+       "depthUsd": {
+        "bid": 4.5,
+        "ask": 9.35
+       },
+       "volume24h": 0,
+       "trades24h": 0,
+       "lastPx": null,
+       "change24h": 0.05,
+       "fair": null,
+       "edge": null,
+       "clusterId": "ipocap-anthropic-1500000000000-20270101-1hpwz3o",
+       "clusterSize": 2,
+       "matchGrade": null,
+       "settlementRisk": {
+        "settledBy": "deployer",
+        "deployer": "trade[XYZ]",
+        "stakeHype": 501826.60601896,
+        "unstakingHype": 0,
+        "pastDelays": {
+         "count": 374,
+         "medianMs": 2265580,
+         "maxMs": 154503838
+        },
+        "level": "medium",
+        "note": "Settled by trade[XYZ]'s key; 501,827 HYPE staked."
+       }
+      },
+      "grade": "SAME",
+      "flipped": false,
+      "diffs": []
+     }
+    ],
+    "mergedBook": {
+     "bids": [
+      {
+       "px": 0.76699,
+       "sz": 171,
+       "n": 2,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.7629,
+       "sz": 64,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.75,
+       "sz": 6,
+       "n": 1,
+       "source": "hl:7362"
+      },
+      {
+       "px": 0.744,
+       "sz": 431,
+       "n": 1,
+       "source": "hl:8573"
+      }
+     ],
+     "asks": [
+      {
+       "px": 0.767,
+       "sz": 372,
+       "n": 4,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.76701,
+       "sz": 69,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.7712,
+       "sz": 175,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.795,
+       "sz": 435,
+       "n": 2,
+       "source": "hl:8573"
+      }
+     ],
+     "ts": 1793874243147
+    },
+    "mergedBookWithClose": {
+     "bids": [
+      {
+       "px": 0.76699,
+       "sz": 171,
+       "n": 2,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.7629,
+       "sz": 64,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.75,
+       "sz": 6,
+       "n": 1,
+       "source": "hl:7362"
+      },
+      {
+       "px": 0.744,
+       "sz": 431,
+       "n": 1,
+       "source": "hl:8573"
+      }
+     ],
+     "asks": [
+      {
+       "px": 0.767,
+       "sz": 372,
+       "n": 4,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.76701,
+       "sz": 69,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.7712,
+       "sz": 175,
+       "n": 1,
+       "source": "hl:8573"
+      },
+      {
+       "px": 0.795,
+       "sz": 435,
+       "n": 2,
+       "source": "hl:8573"
+      }
+     ],
+     "ts": 1793874243147
+    }
+   },
+   "matches": []
+  }
+ }
+}

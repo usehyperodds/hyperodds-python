@@ -1,0 +1,31 @@
+name: Bug report
+description: The client did something wrong, or a DataFrame came out wrong.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The code you ran, what you expected and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Package, Python and pandas versions
+      description: From `python -c "import hyperodds, sys; print(hyperodds.__version__, sys.version)"` and `pip show pandas`.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where it ran
+      options: [Google Colab, Jupyter, A script, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Traceback
+      description: The full traceback, if there was one. Remove anything private.
+      render: text

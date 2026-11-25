@@ -1,0 +1,196 @@
+{
+ "result": {
+  "data": {
+   "ready": true,
+   "markets": 302,
+   "clusters": 0,
+   "metaAt": 1795637958538,
+   "sources": {
+    "hl.meta": {
+     "ok": true,
+     "lastUpdateMs": 1795637958538
+    },
+    "hl.ws": {
+     "ok": true,
+     "lastUpdateMs": 1795638081945,
+     "counts": {
+      "sockets": 6,
+      "open": 6,
+      "subscriptions": 555,
+      "capacity": 950,
+      "reconnects": 0
+     }
+    },
+    "hl.books": {
+     "ok": true,
+     "lastUpdateMs": 1795638080490,
+     "counts": {
+      "live": 277,
+      "fresh": 277,
+      "missing": 0
+     }
+    },
+    "hl.trades": {
+     "ok": true,
+     "lastUpdateMs": 1795638081648
+    },
+    "hl.ctx": {
+     "ok": true,
+     "lastUpdateMs": 1795638078963
+    },
+    "deribit:BTC": {
+     "ok": true,
+     "lastUpdateMs": 1795638073579
+    },
+    "deribit:ETH": {
+     "ok": true,
+     "lastUpdateMs": 1795638073569
+    },
+    "deribit:USDC": {
+     "ok": true,
+     "lastUpdateMs": 1795638073590
+    },
+    "bybit:BTC": {
+     "ok": true,
+     "lastUpdateMs": 1795638025223
+    },
+    "bybit:ETH": {
+     "ok": true,
+     "lastUpdateMs": 1795638024786
+    },
+    "bybit:SOL": {
+     "ok": true,
+     "lastUpdateMs": 1795638024775
+    },
+    "bybit:HYPE": {
+     "ok": true,
+     "lastUpdateMs": 1795638024768
+    },
+    "hl:meta:default": {
+     "ok": true,
+     "lastUpdateMs": 1795638073771
+    },
+    "hl:meta:xyz": {
+     "ok": true,
+     "lastUpdateMs": 1795638073773
+    },
+    "hl:candles:BTC": {
+     "ok": true,
+     "lastUpdateMs": 1795637964764
+    },
+    "hl:candles:ZEC": {
+     "ok": true,
+     "lastUpdateMs": 1795637964796
+    },
+    "hl:candles:xyz:SPCX": {
+     "ok": true,
+     "lastUpdateMs": 1795637964817
+    },
+    "hl:candles:xyz:XYZ100": {
+     "ok": true,
+     "lastUpdateMs": 1795637964763
+    },
+    "hl:candles:xyz:CL": {
+     "ok": true,
+     "lastUpdateMs": 1795637965766
+    },
+    "hl:candles:xyz:GOLD": {
+     "ok": true,
+     "lastUpdateMs": 1795637965792
+    },
+    "hl:candles:xyz:SP500": {
+     "ok": true,
+     "lastUpdateMs": 1795637965766
+    },
+    "hl:candles:ETH": {
+     "ok": true,
+     "lastUpdateMs": 1795637965809
+    },
+    "hl:candles:HYPE": {
+     "ok": true,
+     "lastUpdateMs": 1795637966759
+    },
+    "hl:candles:xyz:MU": {
+     "ok": true,
+     "lastUpdateMs": 1795637966773
+    },
+    "hl:candles:xyz:SNDK": {
+     "ok": true,
+     "lastUpdateMs": 1795637966777
+    },
+    "hl:candles:xyz:SILVER": {
+     "ok": true,
+     "lastUpdateMs": 1795637966774
+    },
+    "hl:candles:xyz:ANT": {
+     "ok": true,
+     "lastUpdateMs": 1795637967760
+    },
+    "hl:candles:xyz:DRAM": {
+     "ok": true,
+     "lastUpdateMs": 1795637967760
+    },
+    "hl:candles:xyz:SKHX": {
+     "ok": true,
+     "lastUpdateMs": 1795637967809
+    },
+    "hl:candles:xyz:NVDA": {
+     "ok": true,
+     "lastUpdateMs": 1795637967760
+    },
+    "hl:candles:SOL": {
+     "ok": true,
+     "lastUpdateMs": 1795637968817
+    },
+    "fair.crypto": {
+     "ok": true,
+     "lastUpdateMs": 1795638072841
+    },
+    "chainlink:BTC/USD": {
+     "ok": true,
+     "lastUpdateMs": 1795638073650
+    },
+    "chainlink:ETH/USD": {
+     "ok": true,
+     "lastUpdateMs": 1795638073650
+    },
+    "chainlink:SOL/USD": {
+     "ok": true,
+     "lastUpdateMs": 1795638073650
+    },
+    "chainlink:HYPE/USD": {
+     "ok": true,
+     "lastUpdateMs": 1795638073650
+    },
+    "chainlink:ZEC/USD": {
+     "ok": true,
+     "lastUpdateMs": 1795638073650
+    },
+    "matcher": {
+     "ok": true,
+     "lastUpdateMs": 1795638009324
+    },
+    "fair.events": {
+     "ok": true,
+     "lastUpdateMs": 1795638081695
+    },
+    "pm.gamma": {
+     "ok": true,
+     "lastUpdateMs": 1795638079627
+    },
+    "pm.books": {
+     "ok": true,
+     "lastUpdateMs": 1795638079632
+    },
+    "kx.discovery": {
+     "ok": true,
+     "lastUpdateMs": 1795637839627
+    },
+    "kx.books": {
+     "ok": true,
+     "lastUpdateMs": 1795638069679
+    }
+   }
+  }
+ }
+}

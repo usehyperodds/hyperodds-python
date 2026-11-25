@@ -1,0 +1,14 @@
+{
+ "status": 404,
+ "body": {
+  "error": {
+   "message": "No such market.",
+   "code": -32004,
+   "data": {
+    "code": "NOT_FOUND",
+    "httpStatus": 404,
+    "path": "markets.get"
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "asOf": "2025-11-23T00:05:00.000Z",
+ "through": "2025-11-22",
+ "records": 2,
+ "settled": 131,
+ "settlementsRoot": "5f0c9b1d7a3e4c2f8b6d0a1e9c7f5b3d2a4e6c8f0b1d3a5c7e9f1b2d4a6ce2a1",
+ "baselines": [
+  {"key": "fair", "label": "Hyperodds fair line", "n": 120, "brier": 0.189302, "nFair": 120, "skillFair": 0, "skillFairLow": null, "nMarket": 118, "skillMarket": 0.004211},
+  {"key": "market", "label": "Market price", "n": 131, "brier": 0.185514, "nFair": 118, "skillFair": -0.004211, "skillFairLow": null, "nMarket": 131, "skillMarket": 0}
+ ],
+ "total": 9,
+ "resolved": 214,
+ "established": 1,
+ "rows": [
+  {"rank": 1, "forecaster": "0x7e5f4552091a69125d5dfcb7b8c2659029395bdf", "n": 61, "brier": 0.170112, "nFair": 58, "skillFair": 0.012009, "skillFairLow": 0.001874, "nMarket": 61, "skillMarket": 0.003961, "early": false},
+  {"rank": 2, "forecaster": "0x2b5ad5c4795c026514f8317c7a215e218dccd6cf", "n": 12, "brier": 0.2011, "nFair": 12, "skillFair": -0.0042, "skillFairLow": -0.0391, "nMarket": 12, "skillMarket": 0.0018, "early": true}
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "result": {
+  "data": {
+   "question": 200,
+   "title": "NFL 2027 winner",
+   "template": "sportsTournamentWinner",
+   "kind": "tournament_winner",
+   "category": "sports",
+   "deployer": "out",
+   "eventTime": null,
+   "deadline": 1803211200000,
+   "outcomes": [
+    {
+     "outcome": 1487,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Los Angeles Rams",
+     "label": "Los Angeles Rams",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.04232,
+     "ask": 0.04268,
+     "mid": 0.0425,
+     "spread": 0.00036,
+     "depthUsd": {
+      "bid": 98.49554,
+      "ask": 163.20457
+     },
+     "volume24h": 5155,
+     "trades24h": 43,
+     "lastPx": 0.04268,
+     "change24h": 0.00289,
+     "fair": {
+      "p": 0.043121,
+      "lo": 0.04104,
+      "hi": 0.045201,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.597,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": -0.075305,
+      "buy1": -0.214021,
+      "sell0": null,
+      "sell1": -0.051736,
+      "best": {
+       "side": 0,
+       "action": "buy",
+       "pts": -0.075305
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    {
+     "outcome": 1488,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Buffalo Bills",
+     "label": "Buffalo Bills",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.15425,
+     "ask": 0.15426,
+     "mid": 0.154255,
+     "spread": 1e-05,
+     "depthUsd": {
+      "bid": 1273.17648,
+      "ask": 665.7316
+     },
+     "volume24h": 1301126,
+     "trades24h": 19867,
+     "lastPx": 0.15426,
+     "change24h": 0.001205,
+     "fair": {
+      "p": 0.157715,
+      "lo": 0.151166,
+      "hi": 0.164264,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.57,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": 0.316522,
+      "buy1": -0.464421,
+      "sell0": -0.361441,
+      "sell1": 0.260443,
+      "best": {
+       "side": 0,
+       "action": "buy",
+       "pts": 0.316522
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    {
+     "outcome": 1489,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Baltimore Ravens",
+     "label": "Baltimore Ravens",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.0015,
+     "ask": 0.00228,
+     "mid": 0.00189,
+     "spread": 0.00078,
+     "depthUsd": {
+      "bid": 3.075,
+      "ask": 17.87188
+     },
+     "volume24h": 0,
+     "trades24h": 0,
+     "lastPx": null,
+     "change24h": -0.00144,
+     "fair": {
+      "p": 0.001952,
+      "lo": 0.001452,
+      "hi": 0.002452,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.597,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": -9.490323,
+      "buy1": -0.249987,
+      "sell0": null,
+      "sell1": -0.132521,
+      "best": {
+       "side": 1,
+       "action": "buy",
+       "pts": -0.249987
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    {
+     "outcome": 1490,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Seattle Seahawks",
+     "label": "Seattle Seahawks",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.03556,
+     "ask": 0.03558,
+     "mid": 0.03557,
+     "spread": 2e-05,
+     "depthUsd": {
+      "bid": 145.01272,
+      "ask": 131.86091
+     },
+     "volume24h": 2138,
+     "trades24h": 32,
+     "lastPx": 0.03558,
+     "change24h": -1e-05,
+     "fair": {
+      "p": 0.035003,
+      "lo": 0.033291,
+      "hi": 0.036715,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.597,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": -0.437431,
+      "buy1": -0.07941,
+      "sell0": -0.023381,
+      "sell1": -0.154051,
+      "best": {
+       "side": 1,
+       "action": "buy",
+       "pts": -0.07941
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    {
+     "outcome": 1491,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Kansas City Chiefs",
+     "label": "Kansas City Chiefs",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.09091,
+     "ask": 0.09092,
+     "mid": 0.090915,
+     "spread": 1e-05,
+     "depthUsd": {
+      "bid": 2390.64068,
+      "ask": 611.22513
+     },
+     "volume24h": 1138733,
+     "trades24h": 14291,
+     "lastPx": 0.09092,
+     "change24h": 0.000245,
+     "fair": {
+      "p": 0.090883,
+      "lo": 0.086768,
+      "hi": 0.094999,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.597,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": -0.023887,
+      "buy1": -0.124618,
+      "sell0": -0.006437,
+      "sell1": -0.094561,
+      "best": {
+       "side": 0,
+       "action": "buy",
+       "pts": -0.023887
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    },
+    {
+     "outcome": 1492,
+     "questionId": 200,
+     "role": "named",
+     "deployer": "out",
+     "deployerName": "Outcome",
+     "template": "sportsTournamentParticipant",
+     "kind": "tournament_winner",
+     "title": "NFL 2027 winner: Dallas Cowboys",
+     "label": "Dallas Cowboys",
+     "questionTitle": "NFL 2027 winner",
+     "sideLabels": [
+      "Yes",
+      "No"
+     ],
+     "category": "sports",
+     "subcategory": "NFL",
+     "eventTime": null,
+     "deadline": 1803211200000,
+     "timing": {
+      "settles": null,
+      "starts": null,
+      "by": 1803211200000
+     },
+     "listedAt": null,
+     "status": "open",
+     "settledSide": null,
+     "bid": 0.0048,
+     "ask": 0.01126,
+     "mid": 0.00803,
+     "spread": 0.00646,
+     "depthUsd": {
+      "bid": 16.29631,
+      "ask": 37.338
+     },
+     "volume24h": 0,
+     "trades24h": 0,
+     "lastPx": null,
+     "change24h": -0.01197,
+     "fair": {
+      "p": 0.008163,
+      "lo": 0.006663,
+      "hi": 0.009663,
+      "method": "consensus",
+      "singleSource": true,
+      "confidence": 0.591,
+      "flags": [
+       "single-source"
+      ],
+      "ts": 1795638081695
+     },
+     "edge": {
+      "refUsd": 100,
+      "buy0": -4.005115,
+      "buy1": -0.47511,
+      "sell0": null,
+      "sell1": -0.408188,
+      "best": {
+       "side": 1,
+       "action": "buy",
+       "pts": -0.47511
+      }
+     },
+     "clusterId": null,
+     "clusterSize": 0,
+     "matchGrade": "SAME",
+     "settlementRisk": {
+      "settledBy": "deployer",
+      "deployer": "Outcome",
+      "stakeHype": 508924.62384877,
+      "unstakingHype": 0,
+      "pastDelays": {
+       "count": 9159,
+       "medianMs": 8064,
+       "maxMs": 596394370
+      },
+      "level": "medium",
+      "note": "Settled by Outcome's key; 508,925 HYPE staked."
+     }
+    }
+   ],
+   "fallback": {
+    "outcome": 1486,
+    "questionId": 200,
+    "role": "fallback",
+    "deployer": "out",
+    "deployerName": "Outcome",
+    "template": "fallback",
+    "kind": "tournament_winner",
+    "title": "NFL 2027 winner: Other",
+    "label": "Other",
+    "questionTitle": "NFL 2027 winner",
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "sports",
+    "subcategory": "NFL",
+    "eventTime": null,
+    "deadline": 1803211200000,
+    "timing": {
+     "settles": null,
+     "starts": null,
+     "by": 1803211200000
+    },
+    "listedAt": null,
+    "status": "open",
+    "settledSide": null,
+    "bid": null,
+    "ask": null,
+    "mid": null,
+    "spread": null,
+    "depthUsd": {
+     "bid": 0,
+     "ask": 0
+    },
+    "volume24h": 0,
+    "trades24h": 0,
+    "lastPx": null,
+    "change24h": null,
+    "fair": null,
+    "edge": null,
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": null,
+    "settlementRisk": {
+     "settledBy": "deployer",
+     "deployer": "Outcome",
+     "stakeHype": 508924.62384877,
+     "unstakingHype": 0,
+     "pastDelays": {
+      "count": 9159,
+      "medianMs": 8064,
+      "maxMs": 596394370
+     },
+     "level": "medium",
+     "note": "Settled by Outcome's key; 508,925 HYPE staked."
+    }
+   },
+   "set": {
+    "complete": false,
+    "buyGap": 0.66302,
+    "sellGap": -0.67066,
+    "sumAsks": 0.33698,
+    "sumBids": 0.32934,
+    "sumFair": 0.336837
+   }
+  }
+ }
+}

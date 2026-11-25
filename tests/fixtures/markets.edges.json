@@ -1,0 +1,246 @@
+{
+ "result": {
+  "data": [
+   {
+    "outcome": 46826,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurring",
+    "kind": "price_binary",
+    "title": "ETH above 1,656.5 at Nov 26 06:00 UTC",
+    "label": "ETH above 1,656.5 at Nov 26 06:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "ETH",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586420738,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.7546,
+    "ask": 0.78632,
+    "mid": 0.77046,
+    "spread": 0.03172,
+    "depthUsd": {
+     "bid": 440.51686,
+     "ask": 366.08816
+    },
+    "volume24h": 14653,
+    "trades24h": 226,
+    "lastPx": 0.746,
+    "change24h": 0.27817,
+    "fair": {
+     "p": 0.836447,
+     "lo": 0.828834,
+     "hi": 0.844309,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.6,
+     "flags": [
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 4.954106,
+     "buy1": -10.968323,
+     "sell0": -10.536122,
+     "sell1": 4.41108,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 4.954106
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   },
+   {
+    "outcome": 46825,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurring",
+    "kind": "price_binary",
+    "title": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "label": "BTC above 59,129 at Nov 26 06:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "BTC",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586417475,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.80231,
+    "ask": 0.81717,
+    "mid": 0.80974,
+    "spread": 0.01486,
+    "depthUsd": {
+     "bid": 2512.51917,
+     "ask": 1277.87036
+    },
+    "volume24h": 140372,
+    "trades24h": 2502,
+    "lastPx": 0.813,
+    "change24h": 0.32075,
+    "fair": {
+     "p": 0.866718,
+     "lo": 0.858917,
+     "hi": 0.874721,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.6,
+     "flags": [
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 4.894112,
+     "buy1": -7.064728,
+     "sell0": -6.534295,
+     "sell1": 4.661471,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 4.894112
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": "DIFFERENT",
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   },
+   {
+    "outcome": 46827,
+    "questionId": null,
+    "role": "standalone",
+    "deployer": "hl",
+    "deployerName": "Hyperliquid",
+    "template": "recurring",
+    "kind": "price_binary",
+    "title": "SOL above 68.708 at Nov 26 06:00 UTC",
+    "label": "SOL above 68.708 at Nov 26 06:00 UTC",
+    "questionTitle": null,
+    "sideLabels": [
+     "Yes",
+     "No"
+    ],
+    "category": "crypto",
+    "subcategory": "SOL",
+    "eventTime": 1795672800000,
+    "deadline": 1795672800000,
+    "timing": {
+     "settles": 1795672800000,
+     "starts": null,
+     "by": null
+    },
+    "listedAt": 1795586422954,
+    "status": "open",
+    "settledSide": null,
+    "bid": 0.76412,
+    "ask": 0.82318,
+    "mid": 0.79365,
+    "spread": 0.05906,
+    "depthUsd": {
+     "bid": 283.48852,
+     "ask": 328.44882
+    },
+    "volume24h": 3780,
+    "trades24h": 39,
+    "lastPx": 0.82341,
+    "change24h": 0.29365,
+    "fair": {
+     "p": 0.858351,
+     "lo": 0.849906,
+     "hi": 0.867064,
+     "method": "options",
+     "singleSource": false,
+     "confidence": 0.6,
+     "flags": [
+      "far-from-listed-expiry"
+     ],
+     "ts": 1795638072841
+    },
+    "edge": {
+     "refUsd": 100,
+     "buy0": 3.457036,
+     "buy1": -9.847618,
+     "sell0": -9.492936,
+     "sell1": 2.625059,
+     "best": {
+      "side": 0,
+      "action": "buy",
+      "pts": 3.457036
+     }
+    },
+    "clusterId": null,
+    "clusterSize": 0,
+    "matchGrade": null,
+    "settlementRisk": {
+     "settledBy": "protocol",
+     "deployer": "Hyperliquid",
+     "stakeHype": null,
+     "unstakingHype": null,
+     "pastDelays": {
+      "count": 216,
+      "medianMs": 17474,
+      "maxMs": 41098
+     },
+     "level": "low",
+     "note": "Settled by the protocol."
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "result": {
+  "data": [
+   {
+    "at": 1795554000000,
+    "lastPx": 0.15332,
+    "fair": 0.158912,
+    "lo": 0.152363,
+    "hi": 0.165461,
+    "singleSource": true,
+    "confidence": 0.57
+   },
+   {
+    "at": 1795557600000,
+    "lastPx": 0.15332,
+    "fair": 0.158914,
+    "lo": 0.152366,
+    "hi": 0.165463,
+    "singleSource": true,
+    "confidence": 0.57
+   },
+   {
+    "at": 1795636800000,
+    "lastPx": 0.15418,
+    "fair": 0.157715,
+    "lo": 0.151166,
+    "hi": 0.164264,
+    "singleSource": true,
+    "confidence": 0.57
+   },
+   {
+    "at": 1795638082222,
+    "lastPx": 0.15426,
+    "fair": 0.157715,
+    "lo": 0.151166,
+    "hi": 0.164264,
+    "singleSource": true,
+    "confidence": 0.57
+   }
+  ]
+ }
+}

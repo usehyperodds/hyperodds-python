@@ -1,0 +1,60 @@
+{
+ "result": {
+  "data": {
+   "from": 1795377600000,
+   "step": 240,
+   "lines": [
+    {
+     "venue": "pm",
+     "id": "pm:0xb02f2ebd5ba67ed1018b634f7ccf88fd46e348f4a53c55cf89a55d02d9ea8611",
+     "title": "Will the Buffalo Bills win the 2027 NFL league championship?",
+     "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366/will-the-buffalo-bills-win-the-2027-nfl-league-championship",
+     "grade": "SAME",
+     "auto": true,
+     "flipped": false,
+     "state": "ok",
+     "asOf": 1795638083226,
+     "prints": [
+      {
+       "at": 1795363214000,
+       "p": 0.155
+      },
+      {
+       "at": 1795377615000,
+       "p": 0.155
+      },
+      {
+       "at": 1795392018000,
+       "p": 0.155
+      }
+     ]
+    },
+    {
+     "venue": "kx",
+     "id": "kx:KXSB-27-BUF",
+     "title": "Will Buffalo win the 2027 Pro Football Championship?",
+     "url": "https://kalshi.com/markets/kxsb",
+     "grade": "CLOSE",
+     "auto": true,
+     "flipped": false,
+     "state": "ok",
+     "asOf": 1795638083227,
+     "prints": [
+      {
+       "at": 1795377599999,
+       "p": 0.155
+      },
+      {
+       "at": 1795391999999,
+       "p": 0.155
+      },
+      {
+       "at": 1795406399999,
+       "p": 0.155
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

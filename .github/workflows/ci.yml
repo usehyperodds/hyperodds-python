@@ -1,0 +1,102 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    if: github.event_name != 'schedule'
+    name: python ${{ matrix.python }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        include:
+          - os: macos-latest
+            python: "3.13"
+          - os: windows-latest
+            python: "3.13"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.5"
+          python-version: ${{ matrix.python }}
+      - run: uv sync --locked
+      - run: uv run --no-sync pytest
+
+  lint:
+    if: github.event_name != 'schedule'
+    name: lint and types
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.5"
+          python-version: "3.13"
+      - run: uv sync --locked
+      - run: uv run --no-sync ruff check
+      - run: uv run --no-sync ruff format --check
+      - run: uv run --no-sync mypy
+
+  oldest:
+    if: github.event_name != 'schedule'
+    name: oldest supported httpx, pydantic and pandas
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.5"
+          python-version: "3.10"
+      - run: uv venv
+      - run: uv pip install --resolution lowest-direct -e ".[pandas]" "pytest>=9"
+      - run: uv run --no-sync pytest
+
+  package:
+    if: github.event_name != 'schedule'
+    name: build and install the package
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.5"
+          python-version: "3.13"
+      - run: uv build
+      - run: uvx twine@7.0.0 check --strict dist/*
+      - name: the wheel installs and imports on its own
+        run: |
+          uv venv /tmp/wheel
+          uv pip install --python /tmp/wheel dist/*.whl
+          /tmp/wheel/bin/python -c "import hyperodds; print(hyperodds.__version__)"
+
+  live:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    name: production smoke test and notebook
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.5"
+          python-version: "3.13"
+      - run: uv sync --locked --group notebook
+      - run: uv run --no-sync pytest -m live
+      - run: uv run --no-sync python scripts/run_notebook.py notebooks/hip4-in-colab.ipynb /tmp/notebook.ipynb

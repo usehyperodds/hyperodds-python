@@ -1,0 +1,64 @@
+{
+ "result": {
+  "data": {
+   "total": 301,
+   "categories": [
+    {
+     "key": "sports",
+     "n": 157
+    },
+    {
+     "key": "crypto",
+     "n": 79
+    },
+    {
+     "key": "indices",
+     "n": 20
+    },
+    {
+     "key": "equities",
+     "n": 18
+    },
+    {
+     "key": "commodities",
+     "n": 13
+    },
+    {
+     "key": "ipo",
+     "n": 10
+    },
+    {
+     "key": "macro",
+     "n": 4
+    }
+   ],
+   "deployers": [
+    {
+     "key": "out",
+     "n": 194,
+     "name": "Outcome"
+    },
+    {
+     "key": "skew",
+     "n": 72,
+     "name": "Skew"
+    },
+    {
+     "key": "fox",
+     "n": 17,
+     "name": "fox"
+    },
+    {
+     "key": "txyz",
+     "n": 10,
+     "name": "trade[XYZ]"
+    },
+    {
+     "key": "hl",
+     "n": 8,
+     "name": "Hyperliquid"
+    }
+   ]
+  }
+ }
+}

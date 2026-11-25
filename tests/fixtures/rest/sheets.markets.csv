@@ -1,0 +1,4 @@
+outcome,title,label,side,other_side,bid,ask,mid,last,change_24h,volume_24h,fair,fair_confidence,edge_pts,edge_side,status,result,starts_utc,settles_by_utc,category,deployer,question,url
+47504,"BTC above 60,060 at Nov 25 20:25 UTC","BTC above 60,060 at Nov 25 20:25 UTC",Yes,No,0.31886,0.42565,,,,0,0.4377,0.3,-1.29,Yes,open,,,2026-11-25 20:25:00,crypto,fox,,https://usehyperodds.com/m/47504
+47497,"BTC above 60,050 at Nov 25 20:30 UTC","BTC above 60,050 at Nov 25 20:30 UTC",Yes,No,0.41,0.47,0.44,0.64,-0.2,27,0.4733,0.3,-1.27,Yes,open,,,2026-11-25 20:30:00,crypto,fox,,https://usehyperodds.com/m/47497
+47500,"BTC above 60,038 at Nov 25 20:30 UTC","BTC above 60,038 at Nov 25 20:30 UTC",Yes,No,0.46,0.51193,0.485965,0.47899,-0.174035,70,0.4978,0.3,-2.57,Yes,open,,,2026-11-25 20:30:00,crypto,Outcome,,https://usehyperodds.com/m/47500
